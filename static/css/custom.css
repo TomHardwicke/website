@@ -15,6 +15,10 @@
  *  Core
  **************************************************/
 
+.small-icon {
+    font-size: 1.4em; /* size of social media icons */
+}
+
 a:focus, a:hover {
     color: #23527c;
     text-decoration: none;
