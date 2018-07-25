@@ -256,10 +256,10 @@ enableGitInfo = false
     icon_pack = "fa"
     link = "https://github.com/TomHardwicke"
     
-  [[params.social]]
-    icon = "orcid"
-    icon_pack = "ai"
-    link = "https://orcid.org/0000-0001-9485-4952"
+ # [[params.social]]
+ #   icon = "orcid"
+ #   icon_pack = "ai"
+ #   link = "https://orcid.org/0000-0001-9485-4952"
     
   [[params.social]]
     icon = "osf"
