@@ -18,6 +18,8 @@
 /* purple rgb(127,140,180) */
 /* red rgb(140, 21, 21) */
 /* mint rgb(199, 209, 197) */
+/* sea blue rgb(96, 191, 234) */
+
 
 .small-icon {
     font-size: 1.3em; /* size of social media icons */
@@ -33,7 +35,7 @@ a:focus, a:hover {
 
 a,
 h3.article-title a:hover {
-  color: rgb(0, 152, 219); 
+  color: rgb(96, 191, 234); 
 }
 
 
@@ -47,7 +49,7 @@ a:focus {
  **************************************************/
 
 .article-metadata a:hover {
-  color: rgb(0, 152, 219);
+  color: rgb(96, 191, 234);
 }
 
 /*************************************************
@@ -55,8 +57,8 @@ a:focus {
  **************************************************/
 
 .btn-primary {
-  border-color: rgb(0, 152, 219);
-  /*background: rgb(0, 152, 219);*/
+  border-color: rgb(96, 191, 234);
+  /*background: rgb(96, 191, 234);*/
 }
 
 .btn-primary:hover,
@@ -64,7 +66,7 @@ a:focus {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  background: rgb(0, 152, 219);
+  background: rgb(96, 191, 234);
 }
 
 
@@ -74,8 +76,8 @@ a:focus {
 
 
 .btn-primary.btn-outline {
-  color: rgb(0, 152, 219);
-  border-color: rgb(0, 152, 219);
+  color: rgb(96, 191, 234);
+  border-color: rgb(96, 191, 234);
 }
 
 /*************************************************
@@ -84,7 +86,7 @@ a:focus {
 
 .navbar-default {
   font-family: 'Montserrat', sans-serif;
-  color: rgb(0, 152, 219);
+  color: rgb(96, 191, 234);
   font-weight: 400;
   background-color: #fcfcfc;
 }
@@ -93,7 +95,7 @@ a:focus {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
   font-family: 'Montserrat', sans-serif;
-  color: rgb(0, 152, 219);
+  color: rgb(96, 191, 234);
   font-weight: 400;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -112,7 +114,7 @@ a:focus {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   text-decoration: none;
-  background-color: rgb(0, 152, 219);
+  background-color: rgb(96, 191, 234);
   outline: 0;
 }
 
@@ -121,7 +123,7 @@ a:focus {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-    color: rgb(0, 152, 219);
+    color: rgb(96, 191, 234);
     background-color: transparent;
   }
 
@@ -133,7 +135,7 @@ a:focus {
  
 
 .btn-toolbar .btn.btn-primary {
-  background: rgb(0, 152, 219);
+  background: rgb(96, 191, 234);
 }
 
 .btn-toolbar .btn.btn-primary:hover,
@@ -171,7 +173,7 @@ a:focus {
 
 .alert-note {
   color: #fff;
-  background-color: rgb(0, 152, 219); 
+  background-color: rgb(96, 191, 234); 
   border-color: #bce8f1;
 }
 
