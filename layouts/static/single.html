@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+  <div class="article-container">
+
+    <div class="article-meta">
+    <h1><span class="title">{{ .Title }}</span></h1>
+    {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
+    {{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
+    </div>
+    
+    {{ .Content }}
+    
+    </div>
+  </div>
+</article>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
