@@ -5,14 +5,14 @@ name = "custom"
 light = true
 
 # Primary
-primary = "#7f8cb4" # blue #80bfff
+primary = "#0098db" # blue: #80bfff |  purple: #7f8cb4 | mint: #009b76 
 primary_light = "#2b2b2b"
 primary_dark = "#2b2b2b"
 
 # Menu
 menu_primary = "#fff"
 menu_text = "#2b2b2b"
-menu_text_active = "#7f8cb4"
+menu_text_active = "#0098db"
 menu_title = "#2b2b2b"
 
 # Home sections
