@@ -73,11 +73,11 @@ Ludwig, C. J. H., Farrell, S., Ellis, L. A., **Hardwicke, T. E.**, & Gilchrist, 
 [[doi]](https://dx.doi.org/10.17605/OSF.IO/R4C32) [[data]](https://osf.io/rxtgs/) [[analysisCode]](https://osf.io/rxtgs/) [[osf]](https://osf.io/rxtgs/) [[pdf]](/files/Hardwicke_thesis.pdf)
 
 **Hardwicke, T. E.**, Jameel, L., Jones, M., Walczak, E. J., & Magis-Weinberg, L. (2014). Only human: Scientists, systems, and suspect statistics.  
-*Opticon1826*
+*Opticon1826*  
 [[doi]](http://dx.doi.org/10.5334/opt.ch) [[pdf]](/files/onlyHuman.pdf)
 
 **Hardwicke, T. E.** (2012). Biological Psychology.  
-*Psychology Learning & Teaching*
+*Psychology Learning & Teaching*  
 [[doi]](http://dx.doi.org/10.2304/plat.2012.11.1.106)
 
 </small>
