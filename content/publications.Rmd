@@ -35,35 +35,35 @@ Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (submitt
 [[preprint]](https://dx.doi.org/10.17605/OSF.IO/N3YAH)
 
 Klein, O., **Hardwicke, T. E.**, Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., & Frank, M. C. (2018). A practical guide for transparency in psychological science.  
-*Collabra: Psychology*  
+*Collabra: Psychology*.  
 [[doi]](http://doi.org/10.1525/collabra.158) [[materials]](https://osf.io/xf6ug/) [[pdf]](/files/transparencyGuide.pdf)
 
 Cristea, I. A., Naudet, F., Shanks, D. R., & **Hardwicke, T. E.** (2017). Post-retrieval Tetris should not be likened to a ‘cognitive vaccine’.  
-*Molecular Psychiatry*  
+*Molecular Psychiatry*.  
 [[doi]](http://dx.doi.org/10.1038/mp.2017.222) [[data]](https://osf.io/nwz9j/) [[analysisCode]](https://osf.io/p3z58/) [[pdf]](files/Cristea_tetris_2017.pdf)
 
 Kidwell, M. C., Lazarević, L. B., Baranski, E., **Hardwicke, T. E.**, Piechowski, S., Falkenberg, L-S., Kennett, C., Slowik, A., Sonnleitner, C., Hess-Holden, C., Errington, T. M., Fiedler, S., & Nosek, B. A. (2016). Badges to acknowledge open practices: A simple, low cost, effective method for increasing transparency.  
-*PLOS Biology*  
+*PLOS Biology*.  
 [[doi]](https://dx.doi.org/10.1371/journal.pbio.1002456) [[pre-registration]](https://osf.io/3upzh/) [[data]](https://osf.io/u6g7t/) [[materials]](https://osf.io/8kt4b/) [[analysisCode]](https://osf.io/257kv/) [[pdf]](/files/openBadges.pdf)
 
 **Hardwicke, T. E.** & Shanks, D. R. (2016). Reply to Walker and Stickgold: Proposed boundary conditions on memory reconsolidation will require empirical verification.  
-*PNAS*  
+*PNAS*.  
 [[doi]](https://dx.doi.org/10.1073/pnas.1608235113) [[pdf]](/files/sequenceReconReply.pdf)
 
 **Hardwicke, T. E.**, Mahdi, T., & Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation.  
-*PNAS*  
+*PNAS*.  
 [[doi]](https://dx.doi.org/10.1073/pnas.1601440113) [[data]](https://osf.io/bm47u/) [[materials]](https://osf.io/xyf34/) [[analysisCode]](https://osf.io/se6gb/) [[pdf]](/files/sequenceRecon.pdf)
 
 Vadillo, M. A., **Hardwicke, T. E.**, & Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015).  
-*Journal of Experimental Psychology: General*  
+*Journal of Experimental Psychology: General*.  
 [[doi]](https://dx.doi.org/10.1037/xge0000157) [[data]](https://osf.io/4e3gy/) [[pdf]](/files/moneyPriming.pdf)
 
 Baker, R., Dexter, M., **Hardwicke, T. E.**, Goldstone, A., & Kourtzi, Z. (2014). Learning to predict: Exposure to temporal sequences facilitates prediction of future events.  
-*Vision Research*  
+*Vision Research*.  
 [[doi]](http://dx.doi.org/10.1016/j.visres.2013.10.017) [[pdf]](/files/learningToPredict.pdf)
 
 Ludwig, C. J. H., Farrell, S., Ellis, L. A., **Hardwicke, T. E.**, & Gilchrist, I. D. (2012). Context-gated statistical learning and its role in visual-saccadic decisions.  
-*Journal of Experimental Psychology: General*  
+*Journal of Experimental Psychology: General*.  
 [[doi]](http://dx.doi.org/10.1037/a0024916) [[pdf]](/files/contextGatedSL.pdf)
 
 ### Other publications
@@ -73,11 +73,11 @@ Ludwig, C. J. H., Farrell, S., Ellis, L. A., **Hardwicke, T. E.**, & Gilchrist, 
 [[doi]](https://dx.doi.org/10.17605/OSF.IO/R4C32) [[data]](https://osf.io/rxtgs/) [[analysisCode]](https://osf.io/rxtgs/) [[osf]](https://osf.io/rxtgs/) [[pdf]](/files/Hardwicke_thesis.pdf)
 
 **Hardwicke, T. E.**, Jameel, L., Jones, M., Walczak, E. J., & Magis-Weinberg, L. (2014). Only human: Scientists, systems, and suspect statistics.  
-*Opticon1826*  
+*Opticon1826*.  
 [[doi]](http://dx.doi.org/10.5334/opt.ch) [[pdf]](/files/onlyHuman.pdf)
 
 **Hardwicke, T. E.** (2012). Biological Psychology.  
-*Psychology Learning & Teaching*  
+*Psychology Learning & Teaching*.  
 [[doi]](http://dx.doi.org/10.2304/plat.2012.11.1.106)
 
 </small>
