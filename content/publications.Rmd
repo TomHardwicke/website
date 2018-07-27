@@ -30,9 +30,9 @@ Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (submitt
 *Royal Society Open Science*.  
 [[pre-registration]](https://osf.io/q4qy3/) [[data]](https://osf.io/6s8b3/) [[materials]](https://osf.io/k2mdr/) [[analysisCode]](https://osf.io/wf3as/) [[reproducibleContainer]](https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2) [[preprint]](https://dx.doi.org/10.17605/OSF.IO/39CFB)
 
-**Hardwicke, T. E.**, Henry Tessler, M., Peloquin, B., & Frank, M. C. (in press). A Bayesian decision-making framework for replication.   
+**Hardwicke, T. E.**, Henry Tessler, M., Peloquin, B., & Frank, M. C. (2018). A Bayesian decision-making framework for replication.   
 *Behavioral and Brain Sciences*.  
-[[preprint]](https://dx.doi.org/10.17605/OSF.IO/N3YAH)
+[[doi]](https://doi.org/10.1017/S0140525X18000675) [[preprint]](https://dx.doi.org/10.17605/OSF.IO/N3YAH)
 
 Klein, O., **Hardwicke, T. E.**, Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., & Frank, M. C. (2018). A practical guide for transparency in psychological science.  
 *Collabra: Psychology*.  
