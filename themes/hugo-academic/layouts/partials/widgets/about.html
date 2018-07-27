@@ -15,7 +15,7 @@
       {{ end }}
 
       <div class="portrait-title">
-        <h2 itemprop="name">{{ $.Site.Params.name }}</h2>
+        <small><h2 itemprop="name">{{ $.Site.Params.name }}</h2></small>
         {{ with $.Site.Params.role }}<h3 itemprop="jobTitle">{{ . }}</h3>{{ end }}
         {{ with $.Site.Params.department }}<h3 itemprop="department">{{ . }}</h3>{{ end }}
 
