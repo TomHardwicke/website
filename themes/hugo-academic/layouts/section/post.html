@@ -24,5 +24,11 @@
   {{ partial "pagination" . }}
 
 </div>
+
+<h2>Comments</h2>
+{{ partial "staticman/form-comments" . }}
+{{ partial "staticman/show-comments" . }}
+  
+  
 {{ partial "footer_container.html" . }}
 {{ partial "footer.html" . }}

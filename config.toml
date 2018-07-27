@@ -344,3 +344,9 @@ enableGitInfo = false
 # Configure the English version of the website.
 [Languages.en]
   languageCode = "en-us"
+  
+[staticman]
+  endpoint = "https://api.staticman.net/v2/entry/"
+  username = "TomHardwicke"
+  repository = "website"
+  branch = "master"
