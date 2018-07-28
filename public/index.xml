@@ -10,6 +10,25 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Testing 123</title>
+      <link>/blog/testing-123/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/testing-123/</guid>
+      <description>&lt;p&gt;Just seeing if this works…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>/2018/07/26/testing/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/26/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Publications</title>
       <link>/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -31,9 +50,9 @@
 &lt;p&gt;&lt;strong&gt;Hardwicke, T. E.&lt;/strong&gt;, Mathur, M. B., MacDonald, K., Nilsonne, G., Banks, G. C., Kidwell, M. C., Hofelich Mohr, A., Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R. L., Altman, S., Long, B., &amp;amp; Frank, M. C. (in press). Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition.&lt;br /&gt;
 &lt;em&gt;Royal Society Open Science&lt;/em&gt;.&lt;br /&gt;
 &lt;a href=&#34;https://osf.io/q4qy3/&#34;&gt;[pre-registration]&lt;/a&gt; &lt;a href=&#34;https://osf.io/6s8b3/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/k2mdr/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/wf3as/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2&#34;&gt;[reproducibleContainer]&lt;/a&gt; &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/39CFB&#34;&gt;[preprint]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Hardwicke, T. E.&lt;/strong&gt;, Henry Tessler, M., Peloquin, B., &amp;amp; Frank, M. C. (in press). A Bayesian decision-making framework for replication.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Hardwicke, T. E.&lt;/strong&gt;, Henry Tessler, M., Peloquin, B., &amp;amp; Frank, M. C. (2018). A Bayesian decision-making framework for replication.&lt;br /&gt;
 &lt;em&gt;Behavioral and Brain Sciences&lt;/em&gt;.&lt;br /&gt;
-&lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/N3YAH&#34;&gt;[preprint]&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://doi.org/10.1017/S0140525X18000675&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/N3YAH&#34;&gt;[preprint]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Klein, O., &lt;strong&gt;Hardwicke, T. E.&lt;/strong&gt;, Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., &amp;amp; Frank, M. C. (2018). A practical guide for transparency in psychological science.&lt;br /&gt;
 &lt;em&gt;Collabra: Psychology&lt;/em&gt;.&lt;br /&gt;
 &lt;a href=&#34;http://doi.org/10.1525/collabra.158&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;https://osf.io/xf6ug/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;/files/transparencyGuide.pdf&#34;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;

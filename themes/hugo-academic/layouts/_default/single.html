@@ -7,9 +7,9 @@
 
   <div class="article-container">
     <h1 itemprop="name">{{ .Title }}</h1>
-
+    
     {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
-
+    
     <div class="article-style" itemprop="articleBody">
       {{ .Content }}
     </div>
@@ -34,11 +34,14 @@
       {{ partial "section_pager.html" . }}
     </div>
     {{ end }}
+    
 
-    {{ partial "comments.html" . }}
+    
 
   </div>
+    
 </article>
+    
 
 {{ partial "footer_container.html" . }}
 {{ partial "footer.html" . }}

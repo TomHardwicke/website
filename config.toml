@@ -57,6 +57,7 @@ enableGitInfo = false
     post = "/:year/:month/:day/:slug"
     
 [params]
+
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
   color_theme = "custom"
@@ -194,7 +195,7 @@ enableGitInfo = false
     'Book',  # 5
     'Book section'  # 6
   ]
-
+  
   # Configuration of talk pages.
   [params.talks]
     # Show talk time?
@@ -344,9 +345,4 @@ enableGitInfo = false
 # Configure the English version of the website.
 [Languages.en]
   languageCode = "en-us"
-  
-[staticman]
-  endpoint = "https://api.staticman.net/v2/entry/"
-  username = "TomHardwicke"
-  repository = "website"
-  branch = "master"
+
