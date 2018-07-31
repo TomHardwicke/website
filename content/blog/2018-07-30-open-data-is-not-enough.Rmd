@@ -8,20 +8,5 @@ tags: [open data]
 summary: 'a brief summary of this post'
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-Testing 123 [^footnote1].
-
-Here's a citation ([Klein et al. 2018](http://doi.org/10.1525/collabra.158)
-
-
-Here's an image:
-
-
-
-hmmmm
-
-[^footnote1]: just kidding...
+test123
 
