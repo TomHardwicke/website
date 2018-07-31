@@ -11,4 +11,10 @@ header:
 summary: 'a brief summary of this post'
 ---
 
-hi
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Testing 123 [^footnote1].
+
+[^footnote1]: just kidding...
