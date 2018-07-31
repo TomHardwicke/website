@@ -33,16 +33,17 @@
     
     <url>
     
+      <loc>/tags/</loc>
+      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/meta-research/</loc>
       <lastmod>2018-07-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -52,17 +53,7 @@
     
     <url>
     
-      <loc>/tags/open-data/</loc>
-      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/open-science/</loc>
+      <loc>/categories/</loc>
       <lastmod>2018-07-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
