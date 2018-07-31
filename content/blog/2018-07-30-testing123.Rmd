@@ -9,6 +9,7 @@ header:
   caption: ''
   image: ''
 draft: true
+summary: 'a brief summary of this post'
 ---
 
 hi
