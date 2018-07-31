@@ -17,4 +17,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Testing 123 [^footnote1].
 
-[^footnote1]: just kidding...
+Heres an image:
+
+```{r open-data-fig, fig.cap = "Open data theoretically supports a number of research activties that support a credible and cumulative scientific enterprise."}
+knitr::include_graphics('/img/openData.png')
+```
+
+
+[^footnote1]: footenote test
