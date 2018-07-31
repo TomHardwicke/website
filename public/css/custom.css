@@ -25,23 +25,34 @@
     font-size: 1.3em; /* size of social media icons */
 }
 
-a:focus, a:hover {
+
+
+
+
+a:focus, a:hover { /* link colours in general */
+    color: inherit;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
+
+.article-style a:focus, .article-style a:hover { /* link colours within publication list and blog posts */
     color: #23527c;
     text-decoration: none;
     font-weight: 400;
+    background-color: #b7e2f5;
 }
-
-/* Headings */
-
-a,
-h3.article-title a:hover {
-  color: rgb(96, 191, 234); 
-}
-
 
 a:hover,
 a:focus {
   color: rgb(52,60,86);
+}
+
+/* Headings */
+
+
+.article-title a:hover {
+  color: #000000; 
 }
 
 /*************************************************

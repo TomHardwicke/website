@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/blog/open-data-is-not-enough/</loc>
+      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/blog/</loc>
       <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
@@ -33,6 +42,36 @@
     
     <url>
     
+      <loc>/categories/meta-research/</loc>
+      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/open-data/</loc>
+      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/open-science/</loc>
+      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
@@ -51,6 +90,7 @@
     <url>
     
       <loc>/tags/</loc>
+      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -10,5 +10,23 @@
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Meta-research</title>
+      <link>/categories/meta-research/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/meta-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open science</title>
+      <link>/categories/open-science/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/open-science/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

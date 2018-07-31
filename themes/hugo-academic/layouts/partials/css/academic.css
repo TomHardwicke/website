@@ -344,7 +344,7 @@ a[data-fancybox] img {
 
 .post-nav-item .meta-nav {
   color: #767676;
-  font-weight: 900;
+  font-weight: 400;
   line-height: 2;
   text-transform: uppercase;
 }
@@ -769,7 +769,7 @@ article .article-metadata {
 }
 
 .pub .pub-row-heading {
-  font-weight: bold;
+  font-weight: 400px;
 }
 
 .pub-list-item .pub-abstract {
@@ -900,7 +900,7 @@ article .article-metadata {
 
 .card h4 {
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
 }
@@ -1216,7 +1216,7 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
   color: {{ .Get "menu_text_active" }};
-  font-weight: 700;
+  font-weight: 400;
   background-color: transparent !important; /* Override Bootstrap. */
 }
 
@@ -1276,7 +1276,7 @@ nav#navbar-main li {
 
 .navbar-default .navbar-brand {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 400px;
   font-size: 1.2em;
   color: {{ .Get "menu_title" }};
 }
