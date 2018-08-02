@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>/blog/open-data-is-not-enough/</loc>
-      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+      <loc>/blog/data-ark/</loc>
+      <lastmod>2018-07-31T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/blog/testing123/</loc>
+      <loc>/blog/open-data-are-not-enough/</loc>
       <lastmod>2018-07-30T00:00:00+00:00</lastmod>
     </url>
     
@@ -42,8 +42,18 @@
     
     <url>
     
+      <loc>/categories/</loc>
+      <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/</loc>
-      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -53,17 +63,7 @@
     <url>
     
       <loc>/categories/</loc>
-      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -90,7 +90,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

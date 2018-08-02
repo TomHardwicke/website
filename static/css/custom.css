@@ -25,9 +25,9 @@
     font-size: 1.3em; /* size of social media icons */
 }
 
-
-
-
+.footnotes {
+  font-size: 0.8em;
+}
 
 a:focus, a:hover { /* link colours in general */
     color: inherit;

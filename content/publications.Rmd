@@ -20,15 +20,15 @@ Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (submitt
 
 **Hardwicke, T. E.** & Ioannidis, J. P. A. (in press). Mapping the universe of Registered Reports.   
 *Nature Human Behaviour*.  
-[[data]](https://osf.io/rv7eb/) [[materials]](https://osf.io/uzegq/) [[analysisCode]](https://osf.io/uzfjp/) [[reproducibleContainer]](https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v2) [[preprint]](https://dx.doi.org/10.17605/OSF.IO/FZPCY)
-
-**Hardwicke, T. E.** & Ioannidis, J. P. A. (in press). Populating the Data Ark: An attempt to retrieve, preserve, and liberate data from the most highly-cited psychology and psychiatry articles.  
-*PLOS ONE*.  
-[[data]](https://osf.io/r38qu/) [[materials]](https://osf.io/4dum6/) [[analysisCode]](https://osf.io/7syrt/) [[reproducibleContainer]](https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2)
+[[data]](https://osf.io/rv7eb/) [[materials]](https://osf.io/uzegq/) [[analysisCode]](https://osf.io/uzfjp/) [[reproducibleContainer]](https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v3) [[preprint]](https://dx.doi.org/10.17605/OSF.IO/FZPCY)
 
 **Hardwicke, T. E.**, Mathur, M. B., MacDonald, K., Nilsonne, G., Banks, G. C., Kidwell, M. C., Hofelich Mohr, A., Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R. L., Altman, S., Long, B., & Frank, M. C. (in press). Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition.   
 *Royal Society Open Science*.  
 [[pre-registration]](https://osf.io/q4qy3/) [[data]](https://osf.io/6s8b3/) [[materials]](https://osf.io/k2mdr/) [[analysisCode]](https://osf.io/wf3as/) [[reproducibleContainer]](https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2) [[preprint]](https://dx.doi.org/10.17605/OSF.IO/39CFB)
+
+**Hardwicke, T. E.** & Ioannidis, J. P. A. (2018). Populating the Data Ark: An attempt to retrieve, preserve, and liberate data from the most highly-cited psychology and psychiatry articles.  
+*PLOS ONE*.  
+[[doi]](https://doi.org/10.1371/journal.pone.0201856) [[data]](https://osf.io/r38qu/) [[materials]](https://osf.io/4dum6/) [[analysisCode]](https://osf.io/7syrt/) [[reproducibleContainer]](https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2)
 
 **Hardwicke, T. E.**, Henry Tessler, M., Peloquin, B., & Frank, M. C. (2018). A Bayesian decision-making framework for replication.   
 *Behavioral and Brain Sciences*.  

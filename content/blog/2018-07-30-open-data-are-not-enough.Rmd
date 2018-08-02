@@ -1,8 +1,8 @@
 ---
-title: Open data is not enough
+title: 'Open data are not enough: Reusability, Reproducibility, and flat-pack furniture'
 authors: [Tom Hardwicke, Michael Frank]
 date: '2018-07-30'
-slug: open-data-is-not-enough
+slug: open-data-are-not-enough
 categories: ''
 tags: ''
 summary: 'a brief summary of this post'
@@ -12,6 +12,9 @@ draft: true
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+ideals of data sharing in principle are not yet being realized in practice
+
 
 Testing 123 [^footnote1].
 
