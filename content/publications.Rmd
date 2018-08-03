@@ -28,7 +28,7 @@ Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (submitt
 
 **Hardwicke, T. E.** & Ioannidis, J. P. A. (2018). Populating the Data Ark: An attempt to retrieve, preserve, and liberate data from the most highly-cited psychology and psychiatry articles.  
 *PLOS ONE*.  
-[[doi]](https://doi.org/10.1371/journal.pone.0201856) [[data]](https://osf.io/r38qu/) [[materials]](https://osf.io/4dum6/) [[analysisCode]](https://osf.io/7syrt/) [[reproducibleContainer]](https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2)
+[[doi]](https://doi.org/10.1371/journal.pone.0201856) [[pdf]](/files/Hardwicke_Ioannidis_2018_plos_one.pdf) [[data]](https://osf.io/r38qu/) [[materials]](https://osf.io/4dum6/) [[analysisCode]](https://osf.io/7syrt/) [[reproducibleContainer]](https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2)
 
 **Hardwicke, T. E.**, Henry Tessler, M., Peloquin, B., & Frank, M. C. (2018). A Bayesian decision-making framework for replication.   
 *Behavioral and Brain Sciences*.  
@@ -36,15 +36,15 @@ Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (submitt
 
 Klein, O., **Hardwicke, T. E.**, Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., & Frank, M. C. (2018). A practical guide for transparency in psychological science.  
 *Collabra: Psychology*.  
-[[doi]](http://doi.org/10.1525/collabra.158) [[materials]](https://osf.io/xf6ug/) [[pdf]](/files/transparencyGuide.pdf)
+[[doi]](http://doi.org/10.1525/collabra.158) [[pdf]](/files/transparencyGuide.pdf) [[materials]](https://osf.io/xf6ug/)
 
 Cristea, I. A., Naudet, F., Shanks, D. R., & **Hardwicke, T. E.** (2017). Post-retrieval Tetris should not be likened to a ‘cognitive vaccine’.  
 *Molecular Psychiatry*.  
-[[doi]](http://dx.doi.org/10.1038/mp.2017.222) [[data]](https://osf.io/nwz9j/) [[analysisCode]](https://osf.io/p3z58/) [[pdf]](files/Cristea_tetris_2017.pdf)
+[[doi]](http://dx.doi.org/10.1038/mp.2017.222) [[pdf]](files/Cristea_tetris_2017.pdf) [[data]](https://osf.io/nwz9j/) [[analysisCode]](https://osf.io/p3z58/)
 
 Kidwell, M. C., Lazarević, L. B., Baranski, E., **Hardwicke, T. E.**, Piechowski, S., Falkenberg, L-S., Kennett, C., Slowik, A., Sonnleitner, C., Hess-Holden, C., Errington, T. M., Fiedler, S., & Nosek, B. A. (2016). Badges to acknowledge open practices: A simple, low cost, effective method for increasing transparency.  
 *PLOS Biology*.  
-[[doi]](https://dx.doi.org/10.1371/journal.pbio.1002456) [[pre-registration]](https://osf.io/3upzh/) [[data]](https://osf.io/u6g7t/) [[materials]](https://osf.io/8kt4b/) [[analysisCode]](https://osf.io/257kv/) [[pdf]](/files/openBadges.pdf)
+[[doi]](https://dx.doi.org/10.1371/journal.pbio.1002456) [[pdf]](/files/openBadges.pdf) [[pre-registration]](https://osf.io/3upzh/) [[data]](https://osf.io/u6g7t/) [[materials]](https://osf.io/8kt4b/) [[analysisCode]](https://osf.io/257kv/)
 
 **Hardwicke, T. E.** & Shanks, D. R. (2016). Reply to Walker and Stickgold: Proposed boundary conditions on memory reconsolidation will require empirical verification.  
 *PNAS*.  
@@ -52,11 +52,11 @@ Kidwell, M. C., Lazarević, L. B., Baranski, E., **Hardwicke, T. E.**, Piechowsk
 
 **Hardwicke, T. E.**, Mahdi, T., & Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation.  
 *PNAS*.  
-[[doi]](https://dx.doi.org/10.1073/pnas.1601440113) [[data]](https://osf.io/bm47u/) [[materials]](https://osf.io/xyf34/) [[analysisCode]](https://osf.io/se6gb/) [[pdf]](/files/sequenceRecon.pdf)
+[[doi]](https://dx.doi.org/10.1073/pnas.1601440113) [[pdf]](/files/sequenceRecon.pdf) [[data]](https://osf.io/bm47u/) [[materials]](https://osf.io/xyf34/) [[analysisCode]](https://osf.io/se6gb/)
 
 Vadillo, M. A., **Hardwicke, T. E.**, & Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015).  
 *Journal of Experimental Psychology: General*.  
-[[doi]](https://dx.doi.org/10.1037/xge0000157) [[data]](https://osf.io/4e3gy/) [[pdf]](/files/moneyPriming.pdf)
+[[doi]](https://dx.doi.org/10.1037/xge0000157) [[pdf]](/files/moneyPriming.pdf) [[data]](https://osf.io/4e3gy/)
 
 Baker, R., Dexter, M., **Hardwicke, T. E.**, Goldstone, A., & Kourtzi, Z. (2014). Learning to predict: Exposure to temporal sequences facilitates prediction of future events.  
 *Vision Research*.  
@@ -70,7 +70,7 @@ Ludwig, C. J. H., Farrell, S., Ellis, L. A., **Hardwicke, T. E.**, & Gilchrist, 
 
 **Hardwicke, T. E.** (2016). Persistence and plasticity in the human memory system: An empirical investigation of the overwriting hypothesis.  
 *PhD Thesis*.  
-[[doi]](https://dx.doi.org/10.17605/OSF.IO/R4C32) [[data]](https://osf.io/rxtgs/) [[analysisCode]](https://osf.io/rxtgs/) [[osf]](https://osf.io/rxtgs/) [[pdf]](/files/Hardwicke_thesis.pdf)
+[[doi]](https://dx.doi.org/10.17605/OSF.IO/R4C32) [[pdf]](/files/Hardwicke_thesis.pdf) [[data]](https://osf.io/rxtgs/) [[analysisCode]](https://osf.io/rxtgs/) [[osf]](https://osf.io/rxtgs/)
 
 **Hardwicke, T. E.**, Jameel, L., Jones, M., Walczak, E. J., & Magis-Weinberg, L. (2014). Only human: Scientists, systems, and suspect statistics.  
 *Opticon1826*.  

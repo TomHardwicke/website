@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
+    <title></title>
     <link>/categories/</link>
-    <description>Recent content in Categories on </description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
@@ -12,12 +12,27 @@
     
     
     <item>
-      <title></title>
-      <link>/categories/</link>
+      <title>The Data Ark: An attempt to retrieve, preserve, and liberate important scientific data</title>
+      <link>/blog/data-ark/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/</guid>
-      <description></description>
+      <guid>/blog/data-ark/</guid>
+      <description>Brief summary We’ve just published a paper reporting our efforts to retrieve raw data from 111 highly-cited psychology and psychiatry papers and make them available to the scientific community in a repository called the Data Ark. This post is intended to complement the paper and summarise the key ideas behind the Data Ark and the findings of our initial attempts to populate it. We are hoping to start a conversation about data preservation and stewardship, so let us know your thoughts in the comments below.</description>
+    </item>
+    
+    <item>
+      <title>Open data are not enough: Reusability, Reproducibility, and flat-pack furniture</title>
+      <link>/blog/open-data-are-not-enough/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/open-data-are-not-enough/</guid>
+      <description>ideals of data sharing in principle are not yet being realized in practice
+Testing 123 1.
+Heres a citation Klein et al. 2018
+Heres an image:
+ Figure 1: Open data theoretically supports a number of research activties that support a credible and cumulative scientific enterprise.  hmmmm
+ just kidding…↩
+   </description>
     </item>
     
   </channel>
