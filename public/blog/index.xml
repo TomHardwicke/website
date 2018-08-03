@@ -6,7 +6,7 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,12 +21,13 @@
     </item>
     
     <item>
-      <title>Open data are not enough</title>
+      <title>Open data are not enough: Reusability, Reproducibility, and flat-pack furniture</title>
       <link>/blog/open-data-are-not-enough/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/open-data-are-not-enough/</guid>
-      <description>Testing 123 1.
+      <description>ideals of data sharing in principle are not yet being realized in practice
+Testing 123 1.
 Heres a citation Klein et al. 2018
 Heres an image:
  Figure 1: Open data theoretically supports a number of research activties that support a credible and cumulative scientific enterprise.  hmmmm

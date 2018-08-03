@@ -4,7 +4,6 @@ title: 'The Data Ark: An attempt to retrieve, preserve, and liberate important s
 authors: ["Tom Hardwicke"]
 date: '2018-07-31'
 output: word_document
-draft: yes
 slug: data-ark
 summary: a brief summary of this post
 tags: ''

@@ -6,7 +6,7 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -53,12 +53,13 @@ Figure 2: Responses to our data sharing request in an effort to populate the Dat
     </item>
     
     <item>
-      <title>Open data are not enough</title>
+      <title>Open data are not enough: Reusability, Reproducibility, and flat-pack furniture</title>
       <link>/blog/open-data-are-not-enough/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/open-data-are-not-enough/</guid>
-      <description>&lt;p&gt;Testing 123 &lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;ideals of data sharing in principle are not yet being realized in practice&lt;/p&gt;
+&lt;p&gt;Testing 123 &lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Heres a citation &lt;a href=&#34;http://doi.org/10.1525/collabra.158&#34;&gt;Klein et al. 2018&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Heres an image:&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:open-data-fig&#34;&gt;&lt;/span&gt;
@@ -93,12 +94,12 @@ Figure 1: Open data theoretically supports a number of research activties that s
 &lt;p&gt;&lt;strong&gt;Hardwicke, T. E.&lt;/strong&gt; &amp;amp; Ioannidis, J. P. A. (in press). Mapping the universe of Registered Reports.&lt;br /&gt;
 &lt;em&gt;Nature Human Behaviour&lt;/em&gt;.&lt;br /&gt;
 &lt;a href=&#34;https://osf.io/rv7eb/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/uzegq/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/uzfjp/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v3&#34;&gt;[reproducibleContainer]&lt;/a&gt; &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/FZPCY&#34;&gt;[preprint]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Hardwicke, T. E.&lt;/strong&gt; &amp;amp; Ioannidis, J. P. A. (in press). Populating the Data Ark: An attempt to retrieve, preserve, and liberate data from the most highly-cited psychology and psychiatry articles.&lt;br /&gt;
-&lt;em&gt;PLOS ONE&lt;/em&gt;.&lt;br /&gt;
-&lt;a href=&#34;https://osf.io/r38qu/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/4dum6/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/7syrt/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2&#34;&gt;[reproducibleContainer]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Hardwicke, T. E.&lt;/strong&gt;, Mathur, M. B., MacDonald, K., Nilsonne, G., Banks, G. C., Kidwell, M. C., Hofelich Mohr, A., Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R. L., Altman, S., Long, B., &amp;amp; Frank, M. C. (in press). Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition.&lt;br /&gt;
 &lt;em&gt;Royal Society Open Science&lt;/em&gt;.&lt;br /&gt;
 &lt;a href=&#34;https://osf.io/q4qy3/&#34;&gt;[pre-registration]&lt;/a&gt; &lt;a href=&#34;https://osf.io/6s8b3/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/k2mdr/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/wf3as/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2&#34;&gt;[reproducibleContainer]&lt;/a&gt; &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/39CFB&#34;&gt;[preprint]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hardwicke, T. E.&lt;/strong&gt; &amp;amp; Ioannidis, J. P. A. (2018). Populating the Data Ark: An attempt to retrieve, preserve, and liberate data from the most highly-cited psychology and psychiatry articles.&lt;br /&gt;
+&lt;em&gt;PLOS ONE&lt;/em&gt;.&lt;br /&gt;
+&lt;a href=&#34;https://doi.org/10.1371/journal.pone.0201856&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;https://osf.io/r38qu/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/4dum6/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/7syrt/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2&#34;&gt;[reproducibleContainer]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Hardwicke, T. E.&lt;/strong&gt;, Henry Tessler, M., Peloquin, B., &amp;amp; Frank, M. C. (2018). A Bayesian decision-making framework for replication.&lt;br /&gt;
 &lt;em&gt;Behavioral and Brain Sciences&lt;/em&gt;.&lt;br /&gt;
 &lt;a href=&#34;https://doi.org/10.1017/S0140525X18000675&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/N3YAH&#34;&gt;[preprint]&lt;/a&gt;&lt;/p&gt;
