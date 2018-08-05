@@ -6,18 +6,18 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>The Data Ark: An attempt to retrieve, preserve, and liberate important scientific data</title>
-      <link>/blog/data-ark/</link>
+      <title>The attrition of the modern scholary record</title>
+      <link>/blog/attrition-scholarly-record/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/data-ark/</guid>
-      <description>Brief summary We’ve just published a paper reporting our efforts to retrieve raw data from 111 highly-cited psychology and psychiatry papers and make them available to the scientific community in a repository called the Data Ark. This post is intended to complement the paper and summarise the key ideas behind the Data Ark and the findings of our initial attempts to populate it. We are hoping to start a conversation about data preservation and stewardship, so let us know your thoughts in the comments below.</description>
+      <guid>/blog/attrition-scholarly-record/</guid>
+      <description>Brief summary An extensive and ongoing attrition of the modern scholarly record is undermining a number of important research activities that support verification, discovery, and evidence synthesis. This undermines the efficiency and credibility of the scientific endeavour. Recently, we launched the Data Ark initiative – an attempt to retrieve, preserve, and liberate important scientific data. However, most of our data requests were not successful. How can we ensure the longevity and accessibility of important research artifacts?</description>
     </item>
     
     <item>
