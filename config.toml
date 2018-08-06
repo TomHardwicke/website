@@ -54,7 +54,7 @@ enableGitInfo = false
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
 [permalinks]
-    post = "/:year/:month/:day/:slug"
+    post = "/blog/:year/:month/:day/:slug"
     
 [params]
 
