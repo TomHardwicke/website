@@ -1,5 +1,5 @@
 ---
-title: 'The attrition of the modern scholary record'
+title: 'The attrition of the modern scholarly record'
 authors: ['Tom Hardwicke']
 date: '2018-07-31'
 slug: attrition-scholarly-record
