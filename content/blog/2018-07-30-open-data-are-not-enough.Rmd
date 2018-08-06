@@ -1,33 +1,51 @@
 ---
-title: 'Open data are not enough: Reusability, Reproducibility, and flat-pack furniture'
-authors: [Tom Hardwicke, Michael Frank]
-date: '2018-07-30'
-slug: open-data-are-not-enough
+title: "Open data are not enough"
 categories: ''
+date: '2018-07-30'
+draft: yes
+slug: open-data-are-not-enough
+summary: ''
 tags: ''
-summary: 'a brief summary of this post'
-draft: true
+authors:
+- Tom Hardwicke
+- Michael Frank
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+### Brief summary
+<small>*Access to data can enable a number of important research activities that faciliate verification, discovery, and evidence synthesis, ultimately leading to a more efficient, progressive, and credible scientific ecosystem. Many efforts are underway to increase the amount of data sharing, however it is currently unclear if the in-principle benefits of data sharing are being realized in practice. In a recent study we found that a mandatory data sahring policy introduced at the journal Cognition led to a substantial increase in available data, but we also found that a considerable portion of this data was unlikely to be reusable by other researchers. For data to be reusable, it needs to be clearly structured and well-documented. Open data alone will not be enough to achieve the benefits envisioned by proponents of data sharing.*</small>
+
+***  
+
+*This blog is co-written with Mike Frank.*
+
+Psychology is currently navigating a period of [crisis](https://doi.org/10.1177%2F1745691612465253) and [opportunity](https://doi.org/10.1177%2F1745691617751884). Growing calls for the adoption of [transparent](http://doi.org/10.1525/collabra.158) and [reproducible](https://doi.org/10.1038/s41562-016-0021) research practices and starting to elicit a response and a number of journals have begin to introduce new policies to implement change. Data availability is an especially pertinant issue because data access can enable a number of important research activities (see Figure \@ref(fig:open-data-activities)). These include repeating original analyses to recover reported values (analytic reproducibility), employing sensitivity analyses to examine the robustness of outcomes across multiple analysis specifications, conducting novel analyses that make different assumptions or utilise different techniques, and synthesising evidence across multiple studies via meta-analysis. These research activities faciliate verification, discovery, and evidence synthesis and should ultimately lead to a more efficient, progressive, and credible scientific ecosystem. 
+
+the extent to which the in-principle benefits of data sharing are being realized in practice is currently unknown.
+
+
+
+
+Our assessment is sure to be an underestimate of data probs - as our more in-depth check revealed a number of data-related problems
+
+```{r open-data-activities, fig.cap = "Open data can enables a number of research activities that faciliate verification, discovery, and evidence synthesis."}
+knitr::include_graphics('/img/open-data-activities.png')
+```
+
+
+Back in 2015, I (Tom) was visiting the Center for Open Science and joined a project being led by Mallory Kidwell to evaluate the impact of an 'open badges' scheme introduced at the journal Psychological Science. The idea was that authors who voluntarily shared their data and/or research materials would have their paper stamped with a colourful badge, signalling their adoption of open practices to the community. This seems to have been pretty successful; introduction of the badges scheme was associated with an almost 10-fold increase in the proportion of articles reporting available data[^badgesCrit]. It was great to see so many data sets being shared, but one finding from our paper troubled me: a substantial proportion (50/111, 45%) of reportedly available data was in fact not available, incomplete, incorrect, or had insufficient documentation. This include a few articles that had received open data badges.
+
+[^badgesCrit]: see these thought-provoking blogs by Hilda Bastian ([blog1](http://blogs.plos.org/absolutely-maybe/2017/08/29/bias-in-open-science-advocacy-the-case-of-article-badges-for-data-sharing/), [blog2](http://blogs.plos.org/absolutely-maybe/2017/09/01/whats-open-whats-data-whats-proof-whats-spin/)) that suggest considerable caution is needed before making causal claims).
+
+
+
 ideals of data sharing in principle are not yet being realized in practice
 
 
-Testing 123 [^footnote1].
-
-Heres a citation [Klein et al. 2018](http://doi.org/10.1525/collabra.158)
 
 
-Heres an image:
 
-```{r open-data-fig, fig.cap = "Open data theoretically supports a number of research activties that support a credible and cumulative scientific enterprise."}
-knitr::include_graphics('/img/openData.png')
-```
-
-hmmmm
-
-[^footnote1]: just kidding...
 

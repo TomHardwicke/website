@@ -17,22 +17,16 @@
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/attrition-scholarly-record/</guid>
-      <description>Brief summary An extensive and ongoing attrition of the modern scholarly record is undermining a number of important research activities that support verification, discovery, and evidence synthesis. This undermines the efficiency and credibility of the scientific endeavour. Recently, we launched the Data Ark initiative – an attempt to retrieve, preserve, and liberate important scientific data. However, most of our data requests were not successful. How can we ensure the longevity and accessibility of important research artifacts?</description>
+      <description>Brief summary An extensive and ongoing attrition of the modern scholarly record is impeding a number of important research activities that support verification, discovery, and evidence synthesis. This undermines the efficiency, utility, and credibility of the scientific endeavour. Recently, we launched the Data Ark initiative – an attempt to retrieve, preserve, and liberate important scientific data. However, most of our data requests were not successful. How can we ensure the longevity and accessibility of important research artifacts?</description>
     </item>
     
     <item>
-      <title>Open data are not enough: Reusability, Reproducibility, and flat-pack furniture</title>
+      <title>Open data are not enough</title>
       <link>/blog/open-data-are-not-enough/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/open-data-are-not-enough/</guid>
-      <description>ideals of data sharing in principle are not yet being realized in practice
-Testing 123 1.
-Heres a citation Klein et al. 2018
-Heres an image:
- Figure 1: Open data theoretically supports a number of research activties that support a credible and cumulative scientific enterprise.  hmmmm
- just kidding…↩
-   </description>
+      <description>Brief summary Access to data can enable a number of important research activities that faciliate verification, discovery, and evidence synthesis, ultimately leading to a more efficient, progressive, and credible scientific ecosystem. Many efforts are underway to increase the amount of data sharing, however it is currently unclear if the in-principle benefits of data sharing are being realized in practice. In a recent study we found that a mandatory data sahring policy introduced at the journal Cognition led to a substantial increase in available data, but we also found that a considerable portion of this data was unlikely to be reusable by other researchers.</description>
     </item>
     
   </channel>
