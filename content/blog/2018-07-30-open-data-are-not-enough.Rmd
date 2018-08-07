@@ -1,14 +1,12 @@
 ---
-title: "Open data are not enough"
-categories: ''
+title: "Are open data actually reusable?"
+authors: ['Tom Hardwicke', 'Mike Frank']
 date: '2018-07-30'
-draft: yes
 slug: open-data-are-not-enough
 summary: ''
 tags: ''
-authors:
-- Tom Hardwicke
-- Michael Frank
+categories: ''
+draft: true
 ---
 
 ```{r setup, include=FALSE}
@@ -16,36 +14,51 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ### Brief summary
-<small>*Access to data can enable a number of important research activities that faciliate verification, discovery, and evidence synthesis, ultimately leading to a more efficient, progressive, and credible scientific ecosystem. Many efforts are underway to increase the amount of data sharing, however it is currently unclear if the in-principle benefits of data sharing are being realized in practice. In a recent study we found that a mandatory data sahring policy introduced at the journal Cognition led to a substantial increase in available data, but we also found that a considerable portion of this data was unlikely to be reusable by other researchers. For data to be reusable, it needs to be clearly structured and well-documented. Open data alone will not be enough to achieve the benefits envisioned by proponents of data sharing.*</small>
+<small>*Access to data can enable a number of important research activities that faciliate verification, discovery, and evidence synthesis, ultimately leading to a more efficient, progressive, and credible scientific ecosystem. Many efforts are underway to increase the amount of data sharing, however it is currently unclear if the in-principle benefits of data sharing are being realized in practice. In a recent study we found that a mandatory data sharing policy introduced at the journal Cognition led to a substantial increase in available data, but a considerable portion of this data was not reusable. For data to be reusable, it needs to be clearly structured and well-documented. Open data alone will not be enough to achieve the benefits envisioned by proponents of data sharing.*</small>
 
 ***  
 
-*This blog is co-written with Mike Frank.*
+*This is the first of two-part blog with [Mike Frank](https://babieslearninglanguage.blogspot.com/).*
 
-Psychology is currently navigating a period of [crisis](https://doi.org/10.1177%2F1745691612465253) and [opportunity](https://doi.org/10.1177%2F1745691617751884). Growing calls for the adoption of [transparent](http://doi.org/10.1525/collabra.158) and [reproducible](https://doi.org/10.1038/s41562-016-0021) research practices and starting to elicit a response and a number of journals have begin to introduce new policies to implement change. Data availability is an especially pertinant issue because data access can enable a number of important research activities (see Figure \@ref(fig:open-data-activities)). These include repeating original analyses to recover reported values (analytic reproducibility), employing sensitivity analyses to examine the robustness of outcomes across multiple analysis specifications, conducting novel analyses that make different assumptions or utilise different techniques, and synthesising evidence across multiple studies via meta-analysis. These research activities faciliate verification, discovery, and evidence synthesis and should ultimately lead to a more efficient, progressive, and credible scientific ecosystem. 
+Psychology is currently navigating a turbulent period of [crisis](https://doi.org/10.1177%2F1745691612465253) and [opportunity](https://doi.org/10.1177%2F1745691617751884). Serious concerns about the credibility of the published literature have led to calls for the adoption of [transparent](https://dx.doi.org/10.31219/osf.io/sm78t) and [reproducible](https://doi.org/10.1038/s41562-016-0021) research practices, and an [increasingly sophisicated technological apparatus](https://doi.org/10.1177%2F1745691615609918) has [eliminated most practical road blocks](http://doi.org/10.1525/collabra.158) that might previously have undermined these ambitions. 
 
-the extent to which the in-principle benefits of data sharing are being realized in practice is currently unknown.
-
-
-
-
-Our assessment is sure to be an underestimate of data probs - as our more in-depth check revealed a number of data-related problems
+Data availability has recieved particular attention because it is a necessary pre-requisite for several important research activities that facilitate verification, discovery, and evidence synthesis (see Figure \@ref(fig:open-data-activities)). Unfortunately, [most scientific data is unlikely to be available](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/). To address this, some journals have introduced open data policies that either [encourage](https://doi.org/10.1371/journal.pbio.1002456) or [mandate](http://doi.org/10.1525/collabra.102) data sharing, and initial empirical investigations suggest that they are associated with higher rates of data availability. These steps towards increased data availability are encouraging, however, the extent to which the theoretical benefits of data sharing can actually be realized in practice is currently unknown. 
 
 ```{r open-data-activities, fig.cap = "Open data can enables a number of research activities that faciliate verification, discovery, and evidence synthesis."}
 knitr::include_graphics('/img/open-data-activities.png')
 ```
 
+Open data only have utility if they are actually reusable. [A study](https://doi.org/10.1371/journal.pbio.1002456) of the 'open badges' scheme flagged some concerns along these lines: a substantial proportion (50/111, 45%) of reportedly available data (from studies with and without badges) was in fact not available, incomplete, incorrect, or had insufficient documentation. In order to further investigate this issue, we began a study that capitalized on the introduction of an [open data policy](https://doi.org/10.1016/j.cognition.2014.11.004) at the journal *Cognition* in March 2015. Unlike the badges scheme, data sharing was mandatory under this policy: all authors had to make their data files publicly available online before their articles would be published. We evaluated 417 articles submitted pre-policy and 174 articles submitted post-policy. Introduction of this mandatory policy was associated with a substantial increase in the number of articles reporting available data, although 38/174 (22%) post-policy articles did not comply (Figure \@ref(fig:ITS-plot)).
 
-Back in 2015, I (Tom) was visiting the Center for Open Science and joined a project being led by Mallory Kidwell to evaluate the impact of an 'open badges' scheme introduced at the journal Psychological Science. The idea was that authors who voluntarily shared their data and/or research materials would have their paper stamped with a colourful badge, signalling their adoption of open practices to the community. This seems to have been pretty successful; introduction of the badges scheme was associated with an almost 10-fold increase in the proportion of articles reporting available data[^badgesCrit]. It was great to see so many data sets being shared, but one finding from our paper troubled me: a substantial proportion (50/111, 45%) of reportedly available data was in fact not available, incomplete, incorrect, or had insufficient documentation. This include a few articles that had received open data badges.
+```{r ITS-plot, fig.cap = "Proportion of articles with data available statements as a function of submission date across the assessment period. Solid red lines represent predictions of an interrupted time series analysis segemented by pre-policy and post-policy periods. The dashed red line estimates, based on the pre-policy period, the trajectory of data available statement inclusion if the policy had no effect. Confidence bands (red) indicate 95% CIs."}
+knitr::include_graphics('/img/COD/ITSplot.png')
+```
 
-[^badgesCrit]: see these thought-provoking blogs by Hilda Bastian ([blog1](http://blogs.plos.org/absolutely-maybe/2017/08/29/bias-in-open-science-advocacy-the-case-of-article-badges-for-data-sharing/), [blog2](http://blogs.plos.org/absolutely-maybe/2017/09/01/whats-open-whats-data-whats-proof-whats-spin/)) that suggest considerable caution is needed before making causal claims).
+Farily good news so far, but how many of these data sets were actually reusable? In cases where a data set was reportedly available, we attempted to download and open it (accessibility), recorded whether all data needed for evaluation and reproduction of the research had been shared (completeness), and noted whether the data set was sufficiently well documented (understandability). The findings of this exercise (Figure \@ref(fig:reusable-plot)) are rather troubling. Fortunately most data sets were accessible. However, only 23/103 (22%) accessible data sets in the pre-policy period appeared to be reusable (both complete and understandable). There was substantial improvement in the post-policy period, however still only 85/133 (64%) of accessible data sets were deemed reusable.
 
+```{r reusable-plot, fig.cap = "Was shared data actually reusable?"}
+knitr::include_graphics('/img/COD/reusablePlot.png')
+```
 
+[Most scientific data is unlikely to be available](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/) and for most available data, reusability is unknown. Our findings suggest that promoting data availability without attending to the issue of data curation could be misguided. Our initial visual assessment of data files is likely to underestimate the problem -- if we had actually tried to re-use the data in practice it seems likely that additional issues would emerge. Indeed, when we *did* try to re-use the data for a subset of 35 articles in an attempt to establish their analytic reproducibility, several issues with the data files emerged that we hadn't previously spotted. We will discuss these findings in more detail in another blog post.
 
-ideals of data sharing in principle are not yet being realized in practice
+If available data are not well curated then this seriously undermines their utility. That's why we've recommended that journals with open data policies also provide guidance to authors on how to adquately prepare their data files to maximise thier utility. Curating data is not as straightforward as it might seem. It requires some imagination to comprehend the variable naming scheme that seems completely logical to you in the present moment might make no sense to one of your colleagues, or even yourself in a few months time. Here are some tips we have learned for improving the reusability of data files (please do share your own tips in the comments section below):
 
+* share data in a machine-readable and human-readable format that does not rely on proprietary software. Comma-separated values (csv) is a good default.
 
+* if there are no negative constraints (e.g., privacy issues), share the rawest possible digital version of the data (Figure \@ref(fig:data-hierarchy)). In cases where a great deal of pre-processing is required (e.g., eye-tracking data), it is also extremely helpful to share "basic level" data i.e., data summarised at the most relevant unit of analysis (in psychology this is typically the participant level).
 
+* organise data logically, for example in ['tidy' format](https://vita.had.co.nz/papers/tidy-data.pdf), where each variable is a column and each observation is a row.
 
+* accompany your data with 'metadata' -- the who, what, where, why, and when, of the data collection process.
 
+* if it is not too cumbersome, use human legible long form for column headings and group codes. For example, rather than "sbj" use "subject" or "participant id", and rather than "1" and "2" write out "male" and "female". If this gets messy, at least provide translation of your short-hand in a separate data dicitonary/codebook (below)
+
+* provide a data dictionary/codebook. There are nifty automated tools that will generate codebooks for you, for example the R package [dataMaid](https://www.r-bloggers.com/generating-codebooks-in-r/) and [codebook](https://rubenarslan.ocpu.io/codebook/www/) which can used with R, SPSS, and Stata.
+
+```{r data-hierarchy, fig.cap = "A hierarchy of data at various levels of abstraction."}
+knitr::include_graphics('/img/COD/data-hierarchy.png')
+```
+
+It is encouraging to hear about new efforts to increase data availability, however the findings of our recent study suggest that additional attention is needed to the issue of data curation. If available data is not reusable data then the in-principle benefits of data sharing will not be realised in practice.
 
