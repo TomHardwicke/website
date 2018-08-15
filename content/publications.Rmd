@@ -14,7 +14,7 @@ type: 'static'
 
 ### Submitted or under revision
 
-Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (submitted). The efficacy of refutation texts to correct misconceptions among educators.
+Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (under review). The efficacy of refutation texts to correct misconceptions among educators.
 
 ### Peer-reviewed journal articles
 
@@ -32,7 +32,7 @@ Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (submitt
 
 **Hardwicke, T. E.**, Henry Tessler, M., Peloquin, B., & Frank, M. C. (2018). A Bayesian decision-making framework for replication.   
 *Behavioral and Brain Sciences*.  
-[[doi]](https://doi.org/10.1017/S0140525X18000675) [[preprint]](https://dx.doi.org/10.17605/OSF.IO/N3YAH)
+[[doi]](https://doi.org/10.1017/S0140525X18000675) [[pdf]](/files/Zwann_replication_2018.pdf) [[preprint]](https://dx.doi.org/10.17605/OSF.IO/N3YAH)
 
 Klein, O., **Hardwicke, T. E.**, Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., & Frank, M. C. (2018). A practical guide for transparency in psychological science.  
 *Collabra: Psychology*.  
