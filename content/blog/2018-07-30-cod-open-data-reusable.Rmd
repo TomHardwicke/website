@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Back in 2015 I spent a couple of months visiting the Center for Open Science in Virginia. After filling a few days reveling in the novelty of their treadmill desks, I thought I should make myself useful and joined a meta-science project being led by [Mallory Kidwell](https://twitter.com/kidwellmc). The goal was to evaluate the effectiveness of the '[open badges](https://cos.io/our-services/open-science-badges/)' scheme introduced the previous year at the journal *Psychological Science*. The scheme was simple: after a publication decision had been made, authors were asked if they would voluntarily make data (and/or materials) publicly available, in return for which the journal would post a colourful badge on the paper in order to signal adoption of this open research practice. I thought open badges sounded daft, but [I thought open data sounded brilliant](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/), so I decided to go along for the ride.
 
-Many hours of data extraction and falling off treadmills later, [we found](https://doi.org/10.1371/journal.pbio.1002456) that there was a substantial increase in data availability after open badges were introduced. In the comparison journals by contrast, data was hardly ever shared. Perhaps badges were not so daft after all. This was an observational study so we should be cautious about drawing straightforward causal conclusions[^causalMech], but here I want to focus on an aspect of the study that is often overlooked: We didn't just record data availability, we also examined whether shared data were actually *reusable* (in principle). We found that often they are not: a substantial proportion (50/111, 45%) of reportedly available data (from studies with and without badges) was in fact not available, incomplete, incorrect, or had insufficient documentation. If open data are not actually reusable then obviously this undermines [all of the useful things that we could do with them](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/). Recently [observed trends towards increased data sharing](http://doi.org/10.1525/collabra.102) are encouraging, but may be partly illusory if it turns out that many of these data are not reusable.
+Many hours of data extraction and falling off treadmills later, [we found](https://doi.org/10.1371/journal.pbio.1002456) that there was a substantial increase in data availability after open badges were introduced. In the comparison journals by contrast, data was hardly ever shared. Perhaps badges were not so daft after all. This was an observational study so we should be cautious about drawing straightforward causal conclusions[^causalMech], but here I want to surface an aspect of the study that is often overlooked: We didn't just record data availability, we also examined whether shared data were actually *reusable* (in principle). We found that often they are not: a substantial proportion (50/111, 45%) of reportedly available data (from studies with and without badges) was in fact not available, incomplete, incorrect, or had insufficient documentation. If open data are not actually reusable then obviously this undermines [all of the useful things that we could do with them](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/). Recently [observed trends towards increased data sharing](http://doi.org/10.1525/collabra.102) are encouraging, but may be partly illusory if it turns out that many of these data are not reusable.
 
 [^causalMech]: Recently there has been some thought-provoking discussion about the badges study initiated by a couple of blog posts by Hilda Bastian, [here](http://blogs.plos.org/absolutely-maybe/2017/08/29/bias-in-open-science-advocacy-the-case-of-article-badges-for-data-sharing/) and [here](http://blogs.plos.org/absolutely-maybe/2017/09/01/whats-open-whats-data-whats-proof-whats-spin/).
 
@@ -42,7 +42,7 @@ Ultimately, we evaluated 417 articles submitted before *Cognition's* open data p
 knitr::include_graphics('/img/COD/ITSplot.png')
 ```
 
-Fairly good news so far, but how many of these data sets were actually reusable? In cases where a data set was reportedly available, we attempted to download and open it (accessibility), recorded whether all data needed for evaluation and reproduction of the research had been shared (completeness), and noted whether the data set was sufficiently well documented (understandability). Fortunately, most data sets were accessible, but the other findings of this exercise (Figure \@ref(fig:reusable-plot)) are rather troubling. Only 23/103 (22%) accessible data sets in the pre-policy period appeared to be reusable (both complete and understandable). There was substantial improvement in the post-policy period, however still only 85/133 (64%) of accessible data sets were deemed reusable.
+Fairly good news so far, but how many of these data sets were actually reusable? In cases where a data set was reportedly available, we attempted to download and open it (accessibility), recorded whether all data needed for evaluation and reproduction of the research had been shared (completeness), and noted whether the data set was sufficiently well documented (understandability). Fortunately, most data sets were accessible, but the other findings of this exercise (Figure \@ref(fig:reusable-plot)) are rather troubling. Only 23/103 (22%) accessible data sets in the pre-policy period appeared to be reusable (both complete and understandable). There was substantial improvement in the post-policy period, however still only 85/133 (64%) accessible data sets were deemed reusable.
 
 ```{r reusable-plot, fig.cap = "Was shared data actually reusable?"}
 knitr::include_graphics('/img/COD/reusablePlot.png')
@@ -52,21 +52,21 @@ knitr::include_graphics('/img/COD/reusablePlot.png')
 
 ## So what should we do?
 
-If available data are not well curated then this seriously undermines their utility. That's why we've recommended that journals with open data policies also provide guidance to authors on [how to adquately prepare their data files](http://doi.org/10.1525/collabra.158) to maximise their utility. Curating data is not as straightforward as it might seem. It requires some imagination to comprehend that the variable naming scheme that seems completely logical to you in the present moment might make no sense to one of your colleagues, or even yourself, in a few months time. 
+If available data are not well curated then this seriously undermines their utility. That's why we've recommended that journals with open data policies also provide guidance to authors on [how to adquately prepare their data files](http://doi.org/10.1525/collabra.158) to maximise their utility. Curating data is not as straightforward as it might seem. It requires some imagination to comprehend that the variable naming scheme that seems completely logical to you in the present moment might make no sense to one of your colleagues, or even yourself in a few months time. 
 
 Here are some tips we have learned for improving the reusability of data files (please also share your own tips in the comments section below):
-
-* share data in a machine-readable and human-readable format that does not rely on proprietary software. Comma-separated values (csv) is a good default.
 
 * if there are no negative constraints (e.g., privacy issues), share the rawest possible digital version of the data. In cases where a great deal of pre-processing is required (e.g., eye-tracking data), it is also extremely helpful to share "basic level" data i.e., data summarised at the most relevant unit of analysis (in psychology this is typically the participant level).
 
 * organise data logically, for example in ['tidy' format](https://vita.had.co.nz/papers/tidy-data.pdf), where each variable is a column and each observation is a row.
 
-* accompany your data with 'metadata' -- the who, what, where, why, and when, of the data collection process.
-
 * if it is not too cumbersome, use human legible long form for column headings and group codes. For example, rather than "sbj" use "subject" or "participant id", and rather than "1" and "2" write out "male" and "female". If this gets messy, you can provide translation of your short-hand in a separate data dictionary/codebook (below).
 
 * provide a data dictionary/codebook to explain your data. There are nifty automated tools that will generate codebooks for you, for example the R package [dataMaid](https://www.r-bloggers.com/generating-codebooks-in-r/) and [codebook](https://rubenarslan.ocpu.io/codebook/www/) which can used with R, SPSS, and Stata.
+
+* share data in a machine-readable and human-readable format that does not rely on proprietary software. Comma-separated values (csv) is a good default.
+
+* accompany your data with 'metadata' -- the who, what, where, why, and when, of the data collection process.
 
 
 ## Conclusion
