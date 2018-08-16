@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
+    <title>  on </title>
     <link>/blog/</link>
-    <description>Recent content in Posts on </description>
+    <description>Recent content in   on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
@@ -26,7 +26,8 @@
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/human-error-in-analysis-pipelines-undermines-reproducibility/</guid>
-      <description>Human error is inevitable. If you were to imagine a situation in which human error was high likely.
+      <description>Human error is inevitable: It is time for psychology to adopt reproducible analysis pipelines
+Human error is inevitable. If you were to imagine a situation in which human error was high likely.
 Now imagine your typical data analysis pipeline. Its hard to tell the difference.
 , it probably wouldn’t be far off data analysis. Complex, at times tedious and repitive, involving manipulation of intangible objects. Its basically a recipe for disaster.</description>
     </item>
