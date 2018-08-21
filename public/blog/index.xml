@@ -12,24 +12,21 @@
     
     
     <item>
+      <title>Where do the numbers published in scientific articles come from?</title>
+      <link>/blog/psychology-reproducibility/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/psychology-reproducibility/</guid>
+      <description>Brief summary Where do the numbers published in scientific articles come from and how often are they correct? Recently we discovered that it can be a lot more difficult to answer this question than one might hope. Our attempt to reproduce values reported in 35 articles published in the journal Cognition revealed analysis pipelines peppered with errors. I outline some elements of a reproducible workflow that may help to mitigate these problems in future research.</description>
+    </item>
+    
+    <item>
       <title>Are open data actually reusable?</title>
       <link>/blog/open-data-reusability/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/open-data-reusability/</guid>
       <description>Brief summary Many efforts are underway to promote data sharing in psychology, however it is currently unclear if the in-principle benefits of data availability are being realized in practice. In a recent study, we found that a mandatory open data policy introduced at the journal Cognition led to a substantial increase in available data, but a considerable portion of this data was not reusable. For data to be reusable, it needs to be clearly structured and well-documented.</description>
-    </item>
-    
-    <item>
-      <title>Human error in analysis pipelines undermines reproducibility</title>
-      <link>/blog/human-error-in-analysis-pipelines-undermines-reproducibility/</link>
-      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/human-error-in-analysis-pipelines-undermines-reproducibility/</guid>
-      <description>Human error is inevitable: It is time for psychology to adopt reproducible analysis pipelines
-Human error is inevitable. If you were to imagine a situation in which human error was high likely.
-Now imagine your typical data analysis pipeline. Its hard to tell the difference.
-, it probably wouldn’t be far off data analysis. Complex, at times tedious and repitive, involving manipulation of intangible objects. Its basically a recipe for disaster.</description>
     </item>
     
     <item>
