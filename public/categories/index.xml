@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Categories on </title>
     <link>/categories/</link>
-    <description>Recent content on </description>
+    <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0000</lastBuildDate>
@@ -12,22 +12,12 @@
     
     
     <item>
-      <title>Are open data actually reusable?</title>
-      <link>/blog/open-data-reusability/</link>
+      <title></title>
+      <link>/categories/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/open-data-reusability/</guid>
-      <description>Brief summary Many efforts are underway to promote data sharing in psychology, however it is currently unclear if the in-principle benefits of data availability are being realized in practice. In a recent study, we found that a mandatory open data policy introduced at the journal Cognition led to a substantial increase in available data, but a considerable portion of this data was not reusable. For data to be reusable, it needs to be clearly structured and well-documented.</description>
-    </item>
-    
-    <item>
-      <title>The attrition of the modern scholarly record</title>
-      <link>/blog/attrition-scholarly-record/</link>
-      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/attrition-scholarly-record/</guid>
-      <description>Brief summary An extensive and ongoing attrition of the modern scholarly record is impeding a number of important research activities that support verification, discovery, and evidence synthesis. Recently, we launched the Data Ark initiative – an attempt to retrieve, preserve, and liberate important scientific data. However, most of our data requests were not successful. How can we ensure the longevity and accessibility of important research artifacts?
-The Great Library of Alexandria was founded with the lofty ambition to gather and preserve all the world’s knowledge under one roof.</description>
+      <guid>/categories/</guid>
+      <description></description>
     </item>
     
   </channel>
