@@ -18,9 +18,9 @@ Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (under r
 
 ### Peer-reviewed journal articles
 
-**Hardwicke, T. E.** & Ioannidis, J. P. A. (in press). Mapping the universe of Registered Reports.   
+**Hardwicke, T. E.** & Ioannidis, J. P. A. (2018). Mapping the universe of registered reports.   
 *Nature Human Behaviour*.  
-[[data]](https://osf.io/rv7eb/) [[materials]](https://osf.io/uzegq/) [[analysisCode]](https://osf.io/uzfjp/) [[reproducibleContainer]](https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v3) [[preprint]](https://dx.doi.org/10.17605/OSF.IO/FZPCY)
+[[doi]](https://doi.org/10.1038/s41562-018-0444-y) [[pdf]](https://rdcu.be/8eBP) [[data]](https://osf.io/rv7eb/) [[materials]](https://osf.io/uzegq/) [[analysisCode]](https://osf.io/uzfjp/) [[reproducibleContainer]](https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v3) [[preprint]](https://dx.doi.org/10.17605/OSF.IO/FZPCY)
 
 **Hardwicke, T. E.**, Mathur, M. B., MacDonald, K., Nilsonne, G., Banks, G. C., Kidwell, M. C., Hofelich Mohr, A., Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R. L., Altman, S., Long, B., & Frank, M. C. (2018). Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition.   
 *Royal Society Open Science*.  
