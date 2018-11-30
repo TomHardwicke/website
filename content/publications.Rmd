@@ -12,10 +12,6 @@ type: 'static'
 
 <small>
 
-### Submitted or under revision
-
-Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (under revision). The efficacy of refutation texts to correct misconceptions among educators.
-
 ### Peer-reviewed journal articles
 
 **Hardwicke, T. E.** & Ioannidis, J. P. A. (2018). Mapping the universe of registered reports.   
