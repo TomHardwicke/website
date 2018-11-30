@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/blog/psychology-reproducibility/</loc>
+      <loc>/blog/psychology-reproducibility/</loc>
       <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/blog/open-data-reusability/</loc>
+      <loc>/blog/open-data-reusability/</loc>
       <lastmod>2018-08-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/</loc>
+      <loc>/blog/attrition-scholarly-record/</loc>
       <lastmod>2018-08-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/blog/</loc>
+      <loc>/blog/</loc>
       <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/</loc>
+      <loc>/</loc>
       <lastmod>2016-04-20T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -51,7 +51,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/tags/</loc>
+      <loc>/categories/</loc>
       <lastmod>2018-08-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -61,7 +61,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/categories/</loc>
+      <loc>/tags/</loc>
       <lastmod>2018-08-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -71,7 +71,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/categories/</loc>
+      <loc>/categories/</loc>
       <lastmod>2018-08-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -81,7 +81,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -90,7 +90,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/publications/</loc>
+      <loc>/publications/</loc>
     </url>
     
   
@@ -98,7 +98,7 @@
     
     <url>
     
-      <loc>https://tomhardwicke.netlify.com/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2018-08-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

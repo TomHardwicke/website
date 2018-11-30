@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on </title>
-    <link>https://tomhardwicke.netlify.com/home/</link>
+    <link>/home/</link>
     <description>Recent content in Homes on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://tomhardwicke.netlify.com/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://tomhardwicke.netlify.com/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://tomhardwicke.netlify.com/home/about/</guid>
+      <guid>/home/about/</guid>
       <description></description>
     </item>
     
