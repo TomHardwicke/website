@@ -240,7 +240,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:tom.hardwicke@stanford.edu"
+    link = "mailto:tom.hardwicke@charite.de"
 
   [[params.social]]
     icon = "twitter"
@@ -316,7 +316,7 @@ enableGitInfo = false
 
 #[[menu.main]]
 #  name = "Contact"
-#  url = "#mailto:tom.hardwicke@stanford.edu"
+#  url = "#mailto:tom.hardwicke@charite.de"
 #  weight = 5
 
 # Search.
