@@ -36,7 +36,7 @@ Klein, O., **Hardwicke, T. E.**, Aust, F., Breuer, J., Danielsson, H., Hofelich 
 
 Cristea, I. A., Naudet, F., Shanks, D. R., & **Hardwicke, T. E.** (2017). Post-retrieval Tetris should not be likened to a ‘cognitive vaccine’.  
 *Molecular Psychiatry*.  
-[[doi]](http://dx.doi.org/10.1038/mp.2017.222) [[pdf]](files/Cristea_tetris_2017.pdf) [[data]](https://osf.io/nwz9j/) [[analysisCode]](https://osf.io/p3z58/)
+[[doi]](http://dx.doi.org/10.1038/mp.2017.222) [[pdf]](/files/Cristea_tetris_2017.pdf) [[data]](https://osf.io/nwz9j/) [[analysisCode]](https://osf.io/p3z58/)
 
 Kidwell, M. C., Lazarević, L. B., Baranski, E., **Hardwicke, T. E.**, Piechowski, S., Falkenberg, L-S., Kennett, C., Slowik, A., Sonnleitner, C., Hess-Holden, C., Errington, T. M., Fiedler, S., & Nosek, B. A. (2016). Badges to acknowledge open practices: A simple, low cost, effective method for increasing transparency.  
 *PLOS Biology*.  
