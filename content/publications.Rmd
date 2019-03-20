@@ -24,7 +24,7 @@ type: 'static'
 
 **Hardwicke, T. E.** & Ioannidis, J. P. A. (2018). Populating the Data Ark: An attempt to retrieve, preserve, and liberate data from the most highly-cited psychology and psychiatry articles.  
 *PLOS ONE*.  
-[[doi]](https://doi.org/10.1371/journal.pone.0201856) [[pdf]](/files/Hardwicke_Ioannidis_2018_plos_one.pdf) [[data]](https://osf.io/r38qu/) [[materials]](https://osf.io/4dum6/) [[analysisCode]](https://osf.io/7syrt/) [[reproducibleContainer]](https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2) [[blog]](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/)
+[[doi]](https://doi.org/10.1371/journal.pone.0201856) [[pdf]](/files/Hardwicke_Ioannidis_2018_plos_one.pdf) [[data]](https://osf.io/r38qu/) [[materials]](https://osf.io/4dum6/) [[analysisCode]](https://osf.io/7syrt/) [[reproducibleContainer]](https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2) [[blog]](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/) [[media]](http://blogs.discovermagazine.com/neuroskeptic/2018/08/06/how-accessible-is-psychology-data/)
 
 **Hardwicke, T. E.**, Henry Tessler, M., Peloquin, B., & Frank, M. C. (2018). A Bayesian decision-making framework for replication.   
 *Behavioral and Brain Sciences*.  
@@ -48,11 +48,11 @@ Kidwell, M. C., Lazarević, L. B., Baranski, E., **Hardwicke, T. E.**, Piechowsk
 
 **Hardwicke, T. E.**, Mahdi, T., & Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation.  
 *PNAS*.  
-[[doi]](https://dx.doi.org/10.1073/pnas.1601440113) [[pdf]](/files/sequenceRecon.pdf) [[data]](https://osf.io/bm47u/) [[materials]](https://osf.io/xyf34/) [[analysisCode]](https://osf.io/se6gb/)[[comment]](https://doi.org/10.1073/pnas.1607964113)
+[[doi]](https://dx.doi.org/10.1073/pnas.1601440113) [[pdf]](/files/sequenceRecon.pdf) [[data]](https://osf.io/bm47u/) [[materials]](https://osf.io/xyf34/) [[analysisCode]](https://osf.io/se6gb/) [[comment]](https://doi.org/10.1073/pnas.1607964113) [[media]] (http://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/)
 
 Vadillo, M. A., **Hardwicke, T. E.**, & Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015).  
 *Journal of Experimental Psychology: General*.  
-[[doi]](https://dx.doi.org/10.1037/xge0000157) [[pdf]](/files/moneyPriming.pdf) [[data]](https://osf.io/4e3gy/)
+[[doi]](https://dx.doi.org/10.1037/xge0000157) [[pdf]](/files/moneyPriming.pdf) [[data]](https://osf.io/4e3gy/) [[media]](http://blogs.discovermagazine.com/neuroskeptic/2016/04/23/publication-bias-in-money-priming/)
 
 Baker, R., Dexter, M., **Hardwicke, T. E.**, Goldstone, A., & Kourtzi, Z. (2014). Learning to predict: Exposure to temporal sequences facilitates prediction of future events.  
 *Vision Research*.  
