@@ -19,6 +19,8 @@ type: 'static'
 
 ### Peer-reviewed journal articles
 
+**Hardwicke, T. E.**, Frank, M. C., Vazire, S., & Goodman, S. (in press). Should psychology journals adopt specialized statistical review? *Advances in Methods and Practices in Psychological Science*.
+
 **Hardwicke, T. E.** & Ioannidis, J. P. A. (2018). Mapping the universe of registered reports.   
 *Nature Human Behaviour*, *2*, 793-796.  
 [[doi]](https://doi.org/10.1038/s41562-018-0444-y) [[pdf]](https://rdcu.be/8eBP) [[data]](https://osf.io/rv7eb/) [[materials]](https://osf.io/uzegq/) [[analysisCode]](https://osf.io/uzfjp/) [[reproducibleContainer]](https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v3) [[pre-print]](https://dx.doi.org/10.17605/OSF.IO/FZPCY) [[comment]](https://doi.org/10.1038/s41562-018-0449-6)
