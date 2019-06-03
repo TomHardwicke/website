@@ -19,7 +19,11 @@ type: 'static'
 
 ### Peer-reviewed journal articles
 
-**Hardwicke, T. E.**, Frank, M. C., Vazire, S., & Goodman, S. (in press). Should psychology journals adopt specialized statistical review? *Advances in Methods and Practices in Psychological Science*.
+**Hardwicke, T. E.**, Serghiou, S., Janiaud, P., Danchev, V., Crüwell, S., Goodman, S. N., & Ioannidis, J. P. A. (in press). Calibrating the scientific ecosystem through meta-research.  
+*Annual Review of Statistics and its Application*.
+
+**Hardwicke, T. E.**, Frank, M. C., Vazire, S., & Goodman, S. (in press). Should psychology journals adopt specialized statistical review?  
+*Advances in Methods and Practices in Psychological Science*.
 
 **Hardwicke, T. E.** & Ioannidis, J. P. A. (2018). Mapping the universe of registered reports.   
 *Nature Human Behaviour*, *2*, 793-796.  
