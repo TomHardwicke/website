@@ -20,7 +20,8 @@ type: 'static'
 ### Peer-reviewed journal articles
 
 **Hardwicke, T. E.**, Serghiou, S., Janiaud, P., Danchev, V., Crüwell, S., Goodman, S. N., & Ioannidis, J. P. A. (in press). Calibrating the scientific ecosystem through meta-research.  
-*Annual Review of Statistics and its Application*. [[pre-print]](https://doi.org/10.31222/osf.io/krb58)
+*Annual Review of Statistics and its Application*.  
+[[pre-print]](https://doi.org/10.31222/osf.io/krb58)
 
 **Hardwicke, T. E.**, Frank, M. C., Vazire, S., & Goodman, S. N. (in press). Should psychology journals adopt specialized statistical review?  
 *Advances in Methods and Practices in Psychological Science*.
