@@ -12,7 +12,7 @@ type: 'static'
 
 <small>
 
-### Pre-prints
+### Under review
 
 **Hardwicke, T. E.**, Wallach, J. D., Kidwell, M. C., & Ioannidis, J.P.A. (under review). An empirical assessment of transparency and reproducibility-related research practices in the social sciences (2014-2017).  
 [[pre-print]](https://doi.org/10.31222/osf.io/6uhg5) [[pre-registration]](https://osf.io/u5bk9/) [[data]](https://osf.io/u9fw8/) [[materials]](https://osf.io/z9qtr/) [[analysisCode]](https://osf.io/sbrez/) [[reproducibleContainer]](https://doi.org/10.24433/CO.2749769.v2)
@@ -20,9 +20,9 @@ type: 'static'
 ### Peer-reviewed journal articles
 
 **Hardwicke, T. E.**, Serghiou, S., Janiaud, P., Danchev, V., Crüwell, S., Goodman, S. N., & Ioannidis, J. P. A. (in press). Calibrating the scientific ecosystem through meta-research.  
-*Annual Review of Statistics and its Application*.
+*Annual Review of Statistics and its Application*. [[pre-print]](https://doi.org/10.31222/osf.io/krb58)
 
-**Hardwicke, T. E.**, Frank, M. C., Vazire, S., & Goodman, S. (in press). Should psychology journals adopt specialized statistical review?  
+**Hardwicke, T. E.**, Frank, M. C., Vazire, S., & Goodman, S. N. (in press). Should psychology journals adopt specialized statistical review?  
 *Advances in Methods and Practices in Psychological Science*.
 
 **Hardwicke, T. E.** & Ioannidis, J. P. A. (2018). Mapping the universe of registered reports.   
