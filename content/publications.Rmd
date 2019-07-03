@@ -24,8 +24,11 @@ type: 'static'
 *Annual Review of Statistics and its Application*.  
 [[pre-print]](https://doi.org/10.31222/osf.io/krb58)
 
-**Hardwicke, T. E.**, Frank, M. C., Vazire, S., & Goodman, S. N. (in press). Should psychology journals adopt specialized statistical review?  
-*Advances in Methods and Practices in Psychological Science*.
+### 2019
+
+**Hardwicke, T. E.**, Frank, M. C., Vazire, S., & Goodman, S. N. (2019). Should psychology journals adopt specialized statistical review?  
+*Advances in Methods and Practices in Psychological Science*.  
+[[doi]](https://doi.org/10.1177/2515245919858428) [[pdf]](/files/Hardwicke_statreviewpsych_2019.pdf) [[data]](https://osf.io/nquws/files/) [[materials]](https://osf.io/tmah8/files/) [[analysisCode]](https://osf.io/4zurk/files/) [[reproducibleContainer]](https://doi.org/10.24433/CO.8241121.v3)
 
 ### 2018
 
