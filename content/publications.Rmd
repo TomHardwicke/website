@@ -18,13 +18,14 @@ type: 'static'
 *Annual Review of Statistics and its Application*.  
 [[pre-print]](https://doi.org/10.31222/osf.io/krb58)
 
-**Hardwicke, T. E.**, & Ioannidis, J.P.A. (in preparation). Petitions in scientific argumentation: dissecting the request to retire statistical significance.  
-[[pre-print]](https://doi.org/10.31222/osf.io/73xm5) [[pre-registration]](https://osf.io/hbkj3/) [[materials]](https://osf.io/u7nx4/) [[data]](https://osf.io/6a94k/) [[analysisCode]](https://osf.io/jpztm/) [[reproducibleContainer]](https://doi.org/10.24433/CO.3912558.v1)
-
-**Hardwicke, T. E.**, Wallach, J. D., Kidwell, M. C., & Ioannidis, J.P.A. (under review). An empirical assessment of transparency and reproducibility-related research practices in the social sciences (2014-2017).  
-[[pre-print]](https://doi.org/10.31222/osf.io/6uhg5) [[pre-registration]](https://osf.io/u5bk9/) [[data]](https://osf.io/u9fw8/) [[materials]](https://osf.io/z9qtr/) [[analysisCode]](https://osf.io/sbrez/) [[reproducibleContainer]](https://doi.org/10.24433/CO.2749769.v2) 
+**Hardwicke, T. E.**, Wallach, J. D., Kidwell, M. C., & Ioannidis, J.P.A. (in preparation). An empirical assessment of transparency and reproducibility-related research practices in the social sciences (2014-2017).  
+[[pre-print]](https://doi.org/10.31222/osf.io/6uhg5) [[pre-registration]](https://osf.io/u5bk9/) [[data]](https://osf.io/u9fw8/) [[materials]](https://osf.io/z9qtr/) [[analysisCode]](https://osf.io/sbrez/) [[reproducibleContainer]](https://doi.org/10.24433/CO.2749769.v2)
 
 ### 2019
+
+**Hardwicke, T. E.**, & Ioannidis, J.P.A. (2019). Petitions in scientific argumentation: dissecting the request to retire statistical significance.  
+*European Journal of Clinical Investigation*.  
+[[doi]](https://doi.org/10.1111/eci.13162) [[pre-print]](https://doi.org/10.31222/osf.io/73xm5) [[pre-registration]](https://osf.io/hbkj3/) [[materials]](https://osf.io/u7nx4/) [[data]](https://osf.io/6a94k/) [[analysisCode]](https://osf.io/jpztm/) [[reproducibleContainer]](https://doi.org/10.24433/CO.3912558.v1) [[comment]](https://doi.org/10.1111/eci.13165)
 
 Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K., **Hardwicke, T. E.**, Mellor, D. T., van ‘t Veer, A. E., & Vazire, S. (2019). Preregistration is hard, and worthwhile.  
 *Trends in Cognitive Sciences*.  
