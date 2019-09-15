@@ -25,14 +25,14 @@ type: 'static'
 
 **Hardwicke, T. E.**, & Ioannidis, J.P.A. (2019). Petitions in scientific argumentation: dissecting the request to retire statistical significance.  
 *European Journal of Clinical Investigation*.  
-[[doi]](https://doi.org/10.1111/eci.13162) [[pre-print]](https://doi.org/10.31222/osf.io/73xm5) [[pre-registration]](https://osf.io/hbkj3/) [[materials]](https://osf.io/u7nx4/) [[data]](https://osf.io/6a94k/) [[analysisCode]](https://osf.io/jpztm/) [[reproducibleContainer]](https://doi.org/10.24433/CO.3912558.v1) [[comment]](https://doi.org/10.1111/eci.13165)
+[[doi]](https://doi.org/10.1111/eci.13162) [[pre-print]](https://doi.org/10.31222/osf.io/73xm5) [[pre-registration]](https://osf.io/hbkj3/) [[materials]](https://osf.io/u7nx4/) [[data]](https://osf.io/6a94k/) [[analysisCode]](https://osf.io/jpztm/) [[reproducibleContainer]](https://doi.org/10.24433/CO.3912558.v1) [[comment1]](https://doi.org/10.1111/eci.13165) [[comment2]](https://doi.org/10.1111/eci.13170)
 
 Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K., **Hardwicke, T. E.**, Mellor, D. T., van ‘t Veer, A. E., & Vazire, S. (2019). Preregistration is hard, and worthwhile.  
-*Trends in Cognitive Sciences*.  
+*Trends in Cognitive Sciences*, *23*, 815-818.  
 [[doi]](https://doi.org/10.1016/j.tics.2019.07.009) [[pre-print]](https://doi.org/10.31234/osf.io/wu3vs)
 
 **Hardwicke, T. E.**, Frank, M. C., Vazire, S., & Goodman, S. N. (2019). Should psychology journals adopt specialized statistical review?  
-*Advances in Methods and Practices in Psychological Science*.  
+*Advances in Methods and Practices in Psychological Science*, *2*, 240-249.  
 [[doi]](https://doi.org/10.1177/2515245919858428) [[pdf]](/files/Hardwicke_statreviewpsych_2019.pdf) [[data]](https://osf.io/nquws/files/) [[materials]](https://osf.io/tmah8/files/) [[analysisCode]](https://osf.io/4zurk/files/) [[reproducibleContainer]](https://doi.org/10.24433/CO.8241121.v3) [[media]](https://www.psychologicalscience.org/publications/observer/obsonline/strengthening-psychological-science-with-specialized-statistical-review.html?utm_source=tw&utm_medium=social&utm_campaign=AMPPSstatisticalreview)
 
 ### 2018
