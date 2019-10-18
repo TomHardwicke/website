@@ -19,7 +19,7 @@ type: 'static'
 [[pre-print]](https://doi.org/10.31222/osf.io/krb58)
 
 Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (in press). The effectiveness of refutation texts to correct misconceptions among educators.  
-*Journal of Experimental Psychology: Applied.*
+*Journal of Experimental Psychology: Applied.*  
 [[data]](https://osf.io/sg6jy/) [[materials]](https://osf.io/73a9y/) [[analysisCode]](https://osf.io/pxv5b/)
 
 **Hardwicke, T. E.**, Wallach, J. D., Kidwell, M. C., & Ioannidis, J.P.A. (in preparation). An empirical assessment of transparency and reproducibility-related research practices in the social sciences (2014-2017).  
