@@ -16,7 +16,7 @@ type: 'static'
 
 **Hardwicke, T. E.**, Serghiou, S., Janiaud, P., Danchev, V., Crüwell, S., Goodman, S. N., & Ioannidis, J. P. A. (in press). Calibrating the scientific ecosystem through meta-research.  
 *Annual Review of Statistics and its Application*.  
-[[pre-print]](https://doi.org/10.31222/osf.io/krb58)
+[[doi]](https://doi.org/10.1146/annurev-statistics-031219-041104) [[pre-print]](https://doi.org/10.31222/osf.io/krb58)
 
 Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (in press). The effectiveness of refutation texts to correct misconceptions among educators.  
 *Journal of Experimental Psychology: Applied.*  
