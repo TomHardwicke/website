@@ -26,7 +26,7 @@ Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (in pres
 [[pre-print]](https://doi.org/10.31234/osf.io/ehybj) [[data]](https://osf.io/sg6jy/) [[materials]](https://osf.io/73a9y/) [[analysisCode]](https://osf.io/pxv5b/)
 
 **Hardwicke, T. E.**, Wallach, J. D., Kidwell, M. C., Bendixen, T., Crüwell, S., & Ioannidis, J. P. A. (in press). An empirical assessment of transparency and reproducibility-related research practices in the social sciences (2014-2017).  
-*Royal Society Open Science*.
+*Royal Society Open Science*.  
 [[pre-print]](https://doi.org/10.31222/osf.io/6uhg5) [[pre-registration]](https://osf.io/u5bk9/) [[data]](https://osf.io/u9fw8/) [[materials]](https://osf.io/z9qtr/) [[analysisCode]](https://osf.io/sbrez/) [[reproducibleContainer]](https://doi.org/10.24433/CO.2749769.v2)
 
 ### 2019
