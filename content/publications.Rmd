@@ -14,7 +14,7 @@ type: 'static'
 
 ### Forthcoming
 
-**Hardwicke, T. E.**, Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (submitted). Estimating the prevalance of transparency and reproducibility-related research practices in psychology (2014-2017).  
+**Hardwicke, T. E.**, Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (submitted). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017).  
 [[pre-print]](https://doi.org/10.31222/osf.io/9sz2y) [[pre-registration]](https://osf.io/q96eh/) [[data]](https://osf.io/5qmz7/) [[materials]](https://osf.io/c89sy/) [[analysisCode]](https://osf.io/gfjtq/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1618143.v1)
 
 **Hardwicke, T. E.**, Serghiou, S., Janiaud, P., Danchev, V., Crüwell, S., Goodman, S. N., & Ioannidis, J. P. A. (in press). Calibrating the scientific ecosystem through meta-research. *Annual Review of Statistics and its Application*.  

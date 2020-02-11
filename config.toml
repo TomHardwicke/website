@@ -286,7 +286,7 @@ enableGitInfo = false
   name = "Home"
   url = "/"
   weight = 1
-
+  
 [[menu.main]]
   name = "Publications"
   url = "/publications/"
@@ -303,11 +303,6 @@ enableGitInfo = false
    name = "CV"
    url = "files/Hardwicke_cv.pdf"
    weight = 4
-
-#[[menu.main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 4
 
 #[[menu.main]]
 #  name = "Teaching"
