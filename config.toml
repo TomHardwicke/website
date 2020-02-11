@@ -240,7 +240,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:tom.hardwicke@charite.de"
+    link = "mailto:tom.hardwicke@uva.nl"
 
   [[params.social]]
     icon = "twitter"
