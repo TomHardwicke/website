@@ -12,7 +12,10 @@ type: 'static'
 
 <small>
 
-### Forthcoming
+### Preprints
+
+**Hardwicke, T. E.**, & Goodman, S. N. (submitted). How often do leading biomedical journals use statistical experts to evaluate statistical methods? The results of a survey.  
+[[preprint]](https://doi.org/10.31222/osf.io/z27u4) [[data]](https://doi.org/10.17605/osf.io/nscv3) [[materials]](https://doi.org/10.17605/osf.io/p7g8w) [[analysisCode]](https://doi.org/10.17605/osf.io/dy6kj) [[reproducibleContainer]](https://doi.org/10.24433/CO.3883021.v1)
 
 **Hardwicke, T. E.**, Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (submitted). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017).  
 [[pre-print]](https://doi.org/10.31222/osf.io/9sz2y) [[pre-registration]](https://osf.io/q96eh/) [[data]](https://osf.io/5qmz7/) [[materials]](https://osf.io/c89sy/) [[analysisCode]](https://osf.io/gfjtq/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1618143.v1)
