@@ -68,12 +68,12 @@ enableGitInfo = false
 
   # Your details.
   name = "Tom E. Hardwicke"
-  role = "Postdoctoral Scholar"
-  department = "Meta-Research Innovation Center Berlin"
+  role = "Marie Skłodowska-Curie Fellow"
+  department = "Department of Psychology"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Charité – Universitätsmedizin Berlin", url = "" } ]
+  organizations = [ { name = "University of Amsterdam", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
