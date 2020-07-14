@@ -1,298 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Tom E. Hardwicke</title>
     <link>/</link>
-    <description>Recent content on </description>
+    <description>Recent content on Tom E. Hardwicke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0100</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Mar 2018 12:13:38 +0530</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Where do the numbers published in scientific articles come from?</title>
-      <link>/blog/psychology-reproducibility/</link>
-      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
       
-      <guid>/blog/psychology-reproducibility/</guid>
-      <description>
-
-
-&lt;div id=&#34;brief-summary&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Brief summary&lt;/h3&gt;
-&lt;p&gt;&lt;small&gt;&lt;em&gt;Where do the numbers published in scientific articles come from and how often are they correct? Recently we discovered that it can be a lot more difficult to answer this question than one might hope. Our attempt to reproduce values reported in 35 articles published in the journal Cognition revealed analysis pipelines peppered with errors. I outline some elements of a reproducible workflow that may help to mitigate these problems in future research.&lt;br&gt;&lt;br&gt;This is the second of two posts on &lt;a href=&#34;https://dx.doi.org/10.1098/rsos.180448&#34;&gt;our recent paper&lt;/a&gt;: “Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition”. The first part is available &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/open-data-reusability/&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Most quantitative research involves a data analysis pipeline: a series of steps that wrangle, filter, and sort the raw data, feed it into algorithms, and generate statistics, tables, and visualizations that are eventually published in scientific articles. A minimum credibility threshold we might expect all scientific articles to surpass is that &lt;a href=&#34;https://doi.org/10.1177%2F2515245918787489&#34;&gt;any reported values can be recovered if we repeat the original data analysis pipeline&lt;/a&gt;. This known as &lt;em&gt;analytic&lt;/em&gt; (or &lt;em&gt;computational&lt;/em&gt;) reproducibility. During psychology’s ongoing &lt;a href=&#34;https://dx.doi.org/10.1177/1745691612465253&#34;&gt;credibility crisis&lt;/a&gt; much attention has been paid to the &lt;a href=&#34;https://dx.doi.org/10.1126/science.aac4716&#34;&gt;&lt;em&gt;replicability&lt;/em&gt;&lt;/a&gt; of findings i.e., are similar findings observed when a study repeats the methods of a previous study and obtains new data. Analytic reproducibility on the other hand, has been largely overlooked, and has not previously been investigated systematically in our field.&lt;/p&gt;
-&lt;p&gt;In &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/open-data-reusability/&#34;&gt;my last blog post&lt;/a&gt; I described how my colleagues and I began a study to examine the impact of a mandatory open data policy introduced at the journal Cognition. Many datasets were made available, but a substantial number did not appear to be reusable because they were incomplete or poorly documented.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;assessing-analytic-reproducibility&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Assessing analytic reproducibility&lt;/h2&gt;
-&lt;p&gt;In the second phase of our study, we took a closer look at 35 articles and tried to reproduce a set of “target outcomes” - roughly two paragraphs of descriptive and inferential statistics - associated with a key finding. These 35 articles were deemed to have reusable datasets in &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/open-data-reusability/&#34;&gt;phase 1&lt;/a&gt;, so had already passed several quality checks. We only selected target outcomes produced by the most ‘straightforward’ analyses – the usual suspects from undergraduate psychology statistical training (e.g., means, standard deviations, correlations, confidence intervals, t-tests, ANOVAs etc.). Values were considered ‘non-reproducible’ if comparison to the corresponding values output by our own analysis exceeded a pre-defined margin of error (10%).&lt;/p&gt;
-&lt;p&gt;Despite extensive efforts by our team, we initially encountered errors in 24 of the 35 reproducibility assessments (69%). In all of these cases, we sent an e-mail to the original authors explaining our project and providing a link to the &lt;a href=&#34;https://osf.io/q4qy3/&#34;&gt;pre-registered protocol&lt;/a&gt;. We provided a summary of the problems we had encountered, linked to an R Markdown report rendered in html that detailed our re-analysis attempt (e.g., &lt;a href=&#34;https://cdn.rawgit.com/CognitionOpenDataProject/set_IBRbN/7ff5e887/finalReport.html&#34;&gt;here&lt;/a&gt;), and asked for clarification or additional information that might enable us to complete the analysis successfully. We were delighted to receive prompt and helpful replies from 100% of the authors we contacted, sometimes with a cheery word of encouragement about the goals of our project.&lt;/p&gt;
-&lt;p&gt;The additional information provided by authors resolved some issues, typically by correcting errors in the data files or supplementing/clarifying the analysis specifications reported in the published paper. Ultimately, all values were reproducible without any author assistance in 11 (31%) articles. All values were reproducible in an additional 11 (31%) articles but only with author assistance. Finally, there was at least one non-reproducible value in 13 (37%) articles despite author assistance. In total, we attempted to reproduce 1324 individual values and 64 (5%) reproducibility errors remained after author assistance was provided (Figure &lt;a href=&#34;#fig:errorTypesPlot&#34;&gt;1&lt;/a&gt;). Importantly, based on a case-by-case assessment of the pattern of errors in each article, we did not observe any clear indications that original conclusions were seriously impacted.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:errorTypesPlot&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/COD/errorTypesPlot.png&#34; alt=&#34;&amp;lt;small&amp;gt;Post-author assistance status of all 1324 values checked for reproducibility as a function of article and value type (n = count/proportion; ci = confidence interval; misc = miscellaneous; M = mean/median; df = degrees of freedom; es = effect size; test = test statistic; p = p-value; sd/se = standard deviation/standard error. Article colours represent the overall outcome: not fully reproducible despite author assistance (red), reproducible with author assistance (orange) and reproducible without author assistance (green).&amp;lt;/small&amp;gt;&#34;  /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: &lt;small&gt;Post-author assistance status of all 1324 values checked for reproducibility as a function of article and value type (n = count/proportion; ci = confidence interval; misc = miscellaneous; M = mean/median; df = degrees of freedom; es = effect size; test = test statistic; p = p-value; sd/se = standard deviation/standard error. Article colours represent the overall outcome: not fully reproducible despite author assistance (red), reproducible with author assistance (orange) and reproducible without author assistance (green).&lt;/small&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;reproducibility-bananas-and-flat-pack-furniture&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Reproducibility, bananas, and flat pack furniture&lt;/h2&gt;
-&lt;p&gt;Reproducibility checks can quickly drive you bananas - every discrepancy between your own analysis and the target outcomes quickly leads to a spiral of self-doubt as you start wondering whether it is your own analysis or the original analysis that is erroneous. There was rarely a clear recipe to follow because the analysis scripts for the target studies were usually not available, and specification of the original analyses in the paper itself was frequently unclear, incomplete, or incorrect.&lt;/p&gt;
-&lt;p&gt;One thing that it was hard to convey in the paper was just how time-consuming and mentally exhausting these reproducibility checks were. The process generally involved extensive collaborative detective work between several members of our team and the original authors to figure out exactly where the values reported in the papers had come from. We estimate that most checks requiring author assistance absorbed 5–25 person hours of work (from our team) and took many months of back-and-forth communication. &lt;em&gt;And this was just for a couple of paragraphs of results from the most straightforward analyses&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;In the paper, we drew the following analogy:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Conducting an analytic reproducibility check without an analysis script is rather like assembling flat pack furniture without an instruction booklet: one is given some materials (categorized and labelled with varying degrees of helpfulness), and a diagram of the final product, but is missing the step-by-step instructions required to convert one into the other. In many cases, we found it necessary to call the helpline, and, while the response was helpful, the process became excessively time-consuming and frustrating.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;To keep ourselves motivated, we sometimes worked side-by-side during a series of ‘reproducathons’ (Figure &lt;a href=&#34;#fig:reproducathon&#34;&gt;2&lt;/a&gt;). We found this to be much more efficient and manageable than working in isolation. Plus Mike gave us pizza and coffee.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:reproducathon&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/COD/cod-reproducathon.png&#34; alt=&#34;&amp;lt;small&amp;gt;Photos from our reproducathons taken by [Gustav Nilsonne](https://twitter.com/GustavNilsonne).&amp;lt;/small&amp;gt;&#34;  /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 2: &lt;small&gt;Photos from our reproducathons taken by &lt;a href=&#34;https://twitter.com/GustavNilsonne&#34;&gt;Gustav Nilsonne&lt;/a&gt;.&lt;/small&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;As we discussed the problems we were encountering, we naturally reflected on our own analysis pipelines and realised how vulnerable they might be to the same problems. I started to gain a new perspective on the project: the errors we were discovering were an inevitable byproduct of the inherent fallibility of human beings. Scientists are human and humans make errors - that’s not surprising. What’s surprising is that, as a field, we’re not really doing anything about it.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;what-should-we-do&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;What should we do?&lt;/h2&gt;
-&lt;p&gt;Human error is inevitable. But that doesn’t mean that we cannot take steps to mitigate their quantity and consequences. In fact there are sub-fields of psychology dedicated to studying human errors and ways to prevent them (human factors/cognitive ergonomics). We can also learn a great deal from &lt;a href=&#34;https://doi.org/10.1080/00031305.2017.1375986&#34;&gt;our colleagues&lt;/a&gt; in &lt;a href=&#34;https://dx.doi.org/10.1126/science.aah6168&#34;&gt;computationally intensive disciplines&lt;/a&gt; who have developed strategies such as ‘defensive programming’ to minimize the chance of error in computational work and maximise reproducibility. Jeff Rouder, Julia Haaf, and Hope Snyder have a &lt;a href=&#34;https://psyarxiv.com/gxcy5&#34;&gt;great paper&lt;/a&gt; that outlines how principles of error reduction established in human factors research can be applied to analysis pipelines in psychology.&lt;/p&gt;
-&lt;p&gt;In our project, we adopted a number of principles and tools to try and mitigate error and ensure reproducibility (Figure &lt;a href=&#34;#fig:reproduciblePipeline&#34;&gt;3&lt;/a&gt;). This arrangement may not work for everyone, but it illustrates that creating an entirely reproducible analysis pipeline is possible. I won’t deny that there is some upfront cost in setting up such a pipeline, but ultimately I believe the long-term benefits far outweigh these short-term costs. Whilst we can never eliminate human error from the research process, I sleep easier at night knowing that we have implemented a system that reduces the likelihood of errors occurring. Additionally, because we built this pipeline ‘in the open’ from the very beginning, everything has been organized and documented with the assumption that someone may want to verify or re-use aspects of it. This has proved immensely useful as we have been able to quickly get up and running with &lt;a href=&#34;https://osf.io/2cnkq/&#34;&gt;a similar reproducibility project&lt;/a&gt; simply by adapting our existing pipeline.&lt;/p&gt;
-&lt;p&gt;The core principle of our analysis pipeline was &lt;a href=&#34;http://doi.org/10.1525/collabra.158&#34;&gt;transparency&lt;/a&gt;. We made all raw data &lt;a href=&#34;https://osf.io/6s8b3/&#34;&gt;publicly available&lt;/a&gt; on the Open Science Framework along with codebooks (documentation) to &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/open-data-reusability/&#34;&gt;faciliate re-use and verification&lt;/a&gt; by independent scientists (and our future selves). We attempted to comprehensively report all details of our analyses in the paper, but also shared &lt;a href=&#34;https://osf.io/wf3as/&#34;&gt;analysis scripts&lt;/a&gt; because it can be difficult to capture analysis specifications in sufficient detail in regular prose. We adopted a ‘&lt;a href=&#34;https://www.nature.com/news/psychology-must-learn-a-lesson-from-fraud-case-1.9513&#34;&gt;co-piloting&lt;/a&gt;’ scheme which involved a minimum of two team members cross-checking all analyses. We used &lt;a href=&#34;https://github.com/CognitionOpenDataProject&#34;&gt;Github&lt;/a&gt; for code collaboration and version control, which helped to track the provenance of bugs and avoid a &lt;a href=&#34;https://xkcd.com/1459/&#34;&gt;confusing multiplicity of document versions&lt;/a&gt;. All of our analyses were written in a &lt;a href=&#34;https://en.wikipedia.org/wiki/Literate_programming&#34;&gt;literate programming&lt;/a&gt; style using &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;R Markdown&lt;/a&gt; which enabled us to interleave regular prose with analysis code. Using &lt;a href=&#34;https://yihui.name/knitr/&#34;&gt;knitr&lt;/a&gt;, we could convert the R Markdown into &lt;a href=&#34;https://osf.io/p7vkj/&#34;&gt;analysis reports&lt;/a&gt;, in HTML, Word, or pdf format, for every single reproducibility check. &lt;a href=&#34;https://twitter.com/FrederikAust&#34;&gt;Frederik Aust&lt;/a&gt;’s package &lt;a href=&#34;https://github.com/crsh/papaja&#34;&gt;papaja&lt;/a&gt; enabled us to convert the R Markdown for the main paper into a smart looking APA-formatted manuscript, ready to be dropped straight onto the BITSS &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/39CFB&#34;&gt;preprint&lt;/a&gt; server.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:reproduciblePipeline&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/reproducible-pipeline.png&#34; alt=&#34;Elements of our reproducible analysis pipeline.&#34;  /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 3: Elements of our reproducible analysis pipeline.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;The last piece of the puzzle was to ensure that others could re-run our analysis code. This is not straightforward as the successful operation of all code is dependent on idiosyncratic features of the local computational environment (i.e., operating system version, R version, package versions). The computational environment is likely to be different on someone else’s computer, your computer in a few weeks, and potentially no one’s computer in a few years. One way to address this issue is to create a ‘software container’ that specifies the exact computational environment used to run the analyses originally. We used a platform called Code Ocean, which made this process relatively straightforward. When you visit &lt;a href=&#34;https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2&#34;&gt;the software container for our paper&lt;/a&gt; on Code Ocean and click the ‘run’ button, it will take our raw data and analysis code and re-generate the final paper from scratch. Give it a try with your next project, it feels like &lt;a href=&#34;https://media.giphy.com/media/xsF1FSDbjguis/giphy.gif&#34;&gt;the future&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;conclusion&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;The outcome of our analytic reproducibility checks was both encouraging and concerning. Its relieving that none of the errors we found appear to seriously undermine the original conclusions drawn in the published papers. However, on our first pass 69% of the articles had at least one non-reproducible value. That’s pretty concerning. Extensive detective work was required to identify the provenance of reported values, and sometimes, even with assistance from original authors, it was not possible to say where the reported values had come from. As we only assessed a small subset of the most straightforward analyses from articles for which data was already determined to be available and in-principle reusable, our findings are very likely to underestimate reproducibility issues in most other parts of the literature.&lt;/p&gt;
-&lt;p&gt;Neither original authors nor independent scientists interested in re-using data should have to spend their time engaging in extensive back-and-forth exchanges just to establish the analytic reproducibility of published findings. We should be able to take that for granted. It is in everyone’s best interests to adopt reproducible analysis pipelines for a more efficient, less error-prone, and high credibility approach to research.&lt;/p&gt;
-&lt;p&gt;&lt;br&gt; &lt;em&gt;Thanks to Mike Frank for feedback on an earlier version of this post.&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Are open data actually reusable?</title>
-      <link>/blog/open-data-reusability/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/open-data-reusability/</guid>
-      <description>
-
-
-&lt;div id=&#34;brief-summary&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Brief summary&lt;/h3&gt;
-&lt;p&gt;&lt;small&gt;&lt;em&gt;Many efforts are underway to promote data sharing in psychology, however it is currently unclear if the in-principle benefits of data availability are being realized in practice. In a recent study, we found that a mandatory open data policy introduced at the journal Cognition led to a substantial increase in available data, but a considerable portion of this data was not reusable. For data to be reusable, it needs to be clearly structured and well-documented. Open data alone will not be enough to achieve the benefits envisioned by proponents of data sharing. &lt;br&gt;&lt;br&gt;This is the first installment of a two-part blog discussing &lt;a href=&#34;https://dx.doi.org/10.1098/rsos.180448&#34;&gt;our recent paper&lt;/a&gt;: “Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition”. The second installment is &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/psychology-reproducibility/&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Back in 2015 I spent a couple of months visiting the Center for Open Science in Virginia. After filling a few days reveling in the novelty of their treadmill desks, I thought I should make myself useful and joined a meta-science project being led by &lt;a href=&#34;https://twitter.com/kidwellmc&#34;&gt;Mallory Kidwell&lt;/a&gt;. The goal was to evaluate the effectiveness of the ‘&lt;a href=&#34;https://cos.io/our-services/open-science-badges/&#34;&gt;open badges&lt;/a&gt;’ scheme introduced the previous year at the journal &lt;em&gt;Psychological Science&lt;/em&gt;. The scheme was simple: after a publication decision had been made, authors were asked if they would voluntarily make data (and/or materials) publicly available, in return for which the journal would post a colourful badge on the paper in order to signal adoption of this open research practice. I thought open badges sounded daft, but &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/&#34;&gt;I thought open data sounded brilliant&lt;/a&gt;, so I decided to go along for the ride.&lt;/p&gt;
-&lt;p&gt;Many hours of data extraction and falling off treadmills later, &lt;a href=&#34;https://doi.org/10.1371/journal.pbio.1002456&#34;&gt;we found&lt;/a&gt; that there was a substantial increase in data availability after open badges were introduced. In the comparison journals by contrast, data was hardly ever shared. Perhaps badges were not so daft after all. This was an observational study so we should be cautious about drawing straightforward causal conclusions&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, but here I want to surface an aspect of the study that is often overlooked: We didn’t just record data availability, we also examined whether shared data were actually &lt;em&gt;reusable&lt;/em&gt; (in principle). We found that often they are not: a substantial proportion (50/111, 45%) of reportedly available data (from studies with and without badges) was in fact not available, incomplete, incorrect, or had insufficient documentation. If open data are not actually reusable then obviously this undermines &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/&#34;&gt;all of the useful things that we could do with them&lt;/a&gt;. Recently &lt;a href=&#34;http://doi.org/10.1525/collabra.102&#34;&gt;observed trends towards increased data sharing&lt;/a&gt; are encouraging, but may be partly illusory if it turns out that many of these data are not reusable.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;a-new-study-of-data-reusability&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;A new study of data reusability&lt;/h2&gt;
-&lt;p&gt;In order to further investigate this issue, &lt;a href=&#34;https://twitter.com/mcxfrank&#34;&gt;Mike Frank&lt;/a&gt; and I thought up &lt;a href=&#34;https://dx.doi.org/10.1098/rsos.180448&#34;&gt;a study&lt;/a&gt; that capitalized on the introduction of an &lt;a href=&#34;https://doi.org/10.1016/j.cognition.2014.11.004&#34;&gt;open data policy&lt;/a&gt; at the journal &lt;em&gt;Cognition&lt;/em&gt; in March 2015. Unlike the open badges scheme, data sharing was mandatory under this policy: all authors had to make their data files publicly available online before their articles would be published. We decided to examine 591 articles published in &lt;em&gt;Cognition&lt;/em&gt; between March 2014 and March 2017, and extract information about data availability and reusability, following a coding scheme similar to Kidwell et al.&lt;/p&gt;
-&lt;p&gt;Mike and I realized that we could not undertake this endeavour alone, so we &lt;a href=&#34;https://www.youtube.com/watch?v=MPpiCdt5aC8&#34;&gt;sounded the open science conch&lt;/a&gt; and summoned meta-scientists from across the realm to join us in our quest (Figure &lt;a href=&#34;#fig:cod-team&#34;&gt;1&lt;/a&gt;). Although I had worked in a large collaborative team like this before on Mallory’s badges project, I had never &lt;em&gt;led&lt;/em&gt; one. It turned out to be one of the most rewarding parts of the project. Although my attempts to motivate the team with &lt;a href=&#34;https://meme.xyz/uploads/posts/t/l-28162-ive-never-wanted-to-be-in-a-gang-more-than-this-one.jpg&#34;&gt;bizarre animal photographs&lt;/a&gt; may have been more amusing to me than any one else, it turned out that everyone was happy to put in a ton of work anyway, and we all learned a lot from each other along the way. I’ve since bumped into some of my co-authors at conferences and met them face-to-face for the first time.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:cod-team&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/COD/cod-team.png&#34; alt=&#34;The &#39;Cognition Open Data&#39; team.&#34;  /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: The ‘Cognition Open Data’ team.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Ultimately, we evaluated 417 articles submitted before &lt;em&gt;Cognition’s&lt;/em&gt; open data policy was introduced and 174 articles submitted afterwards. Policy introduction was associated with a substantial increase in the number of articles reporting available data, although 38/174 (22%) post-policy articles did not comply (Figure &lt;a href=&#34;#fig:ITS-plot&#34;&gt;2&lt;/a&gt;).&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:ITS-plot&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/COD/ITSplot.png&#34; alt=&#34;Proportion of articles with data available statements as a function of submission date across the assessment period. Solid red lines represent predictions of an interrupted time series analysis segmented by pre-policy and post-policy periods. The dashed red line estimates, based on the pre-policy period, the trajectory of data available statement inclusion if the policy had no effect. Confidence bands (red) indicate 95% CIs.&#34;  /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 2: Proportion of articles with data available statements as a function of submission date across the assessment period. Solid red lines represent predictions of an interrupted time series analysis segmented by pre-policy and post-policy periods. The dashed red line estimates, based on the pre-policy period, the trajectory of data available statement inclusion if the policy had no effect. Confidence bands (red) indicate 95% CIs.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Fairly good news so far, but how many of these data sets were actually reusable? In cases where a data set was reportedly available, we attempted to download and open it (accessibility), recorded whether all data needed for evaluation and reproduction of the research had been shared (completeness), and noted whether the data set was sufficiently well documented (understandability). Fortunately, most data sets were accessible, but the other findings of this exercise (Figure &lt;a href=&#34;#fig:reusable-plot&#34;&gt;3&lt;/a&gt;) are rather troubling. Only 23/103 (22%) accessible data sets in the pre-policy period appeared to be reusable (both complete and understandable). There was substantial improvement in the post-policy period, however still only 85/133 (64%) accessible data sets were deemed reusable.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:reusable-plot&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/COD/reusablePlot.png&#34; alt=&#34;Was shared data actually reusable?&#34;  /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 3: Was shared data actually reusable?
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/&#34;&gt;Most scientific data are unlikely to be available&lt;/a&gt; and for most available data, reusability is unknown. Our findings suggest that promoting data availability without attending to the issue of data reusability could be misguided. Our initial visual assessment of data files is likely to underestimate the problem – if we had actually tried to re-use the data in practice it seems likely that additional issues would emerge. Indeed, when we &lt;em&gt;did&lt;/em&gt; try to re-use the data for a subset of 35 articles in an attempt to establish their analytic reproducibility, several issues with the data files emerged that we hadn’t previously spotted. We will discuss these findings in more detail in another blog post.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;so-what-should-we-do&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;So what should we do?&lt;/h2&gt;
-&lt;p&gt;If available data are not well curated then this seriously undermines their utility. That’s why we’ve recommended that journals with open data policies also provide guidance to authors on &lt;a href=&#34;http://doi.org/10.1525/collabra.158&#34;&gt;how to adquately prepare their data files&lt;/a&gt; to maximise their utility. Curating data is not as straightforward as it might seem. It requires some imagination to comprehend that the variable naming scheme that seems completely logical to you in the present moment might make no sense to one of your colleagues, or even yourself in a few months time.&lt;/p&gt;
-&lt;p&gt;Here are some tips we have learned for improving the reusability of data files (please also share your own tips in the comments section below):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;if there are no negative constraints (e.g., privacy issues), share the rawest possible digital version of the data. In cases where a great deal of pre-processing is required (e.g., eye-tracking data), it is also extremely helpful to share “basic level” data i.e., data summarised at the most relevant unit of analysis (in psychology this is typically the participant level).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;organise data logically, for example in &lt;a href=&#34;https://vita.had.co.nz/papers/tidy-data.pdf&#34;&gt;‘tidy’ format&lt;/a&gt;, where each variable is a column and each observation is a row.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;if it is not too cumbersome, use human legible long form for column headings and group codes. For example, rather than “sbj” use “subject” or “participant id”, and rather than “1” and “2” write out “male” and “female”. If this gets messy, you can provide translation of your short-hand in a separate data dictionary/codebook (below).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;provide a data dictionary/codebook to explain your data. There are nifty automated tools that will generate codebooks for you, for example the R package &lt;a href=&#34;https://www.r-bloggers.com/generating-codebooks-in-r/&#34;&gt;dataMaid&lt;/a&gt; and &lt;a href=&#34;https://rubenarslan.ocpu.io/codebook/www/&#34;&gt;codebook&lt;/a&gt; which can used with R, SPSS, and Stata.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;share data in a machine-readable and human-readable format that does not rely on proprietary software. Comma-separated values (csv) is a good default.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;accompany your data with ‘metadata’ – the who, what, where, why, and when, of the data collection process.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;conclusion&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;It is encouraging to hear about new efforts to increase data availability, however the findings of &lt;a href=&#34;https://dx.doi.org/10.1098/rsos.180448&#34;&gt;our recent study&lt;/a&gt; suggest that additional attention is needed to the issue of data reusability. If available data is not reusable data then the in-principle benefits of data sharing will not be realized in practice.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This is the first installment of a two-part blog. The second installment focuses on lessons learned from our assessment of analytic reproducibility and is available &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/psychology-reproducibility/&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Thanks to Mike Frank for feedback on an earlier version of this post.&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Recently there has been some thought-provoking discussion about the badges study initiated by a couple of blog posts by Hilda Bastian, &lt;a href=&#34;http://blogs.plos.org/absolutely-maybe/2017/08/29/bias-in-open-science-advocacy-the-case-of-article-badges-for-data-sharing/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://blogs.plos.org/absolutely-maybe/2017/09/01/whats-open-whats-data-whats-proof-whats-spin/&#34;&gt;here&lt;/a&gt;.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The attrition of the modern scholarly record</title>
-      <link>/blog/attrition-scholarly-record/</link>
-      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/attrition-scholarly-record/</guid>
-      <description>
-
-
-&lt;div id=&#34;brief-summary&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Brief summary&lt;/h3&gt;
-&lt;p&gt;&lt;small&gt;&lt;em&gt;An extensive and ongoing attrition of the modern scholarly record is impeding a number of important research activities that support verification, discovery, and evidence synthesis. Recently, we launched the Data Ark initiative – an attempt to retrieve, preserve, and liberate important scientific data. However, most of our data requests were not successful. How can we ensure the longevity and accessibility of important research artifacts?&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;The Great Library of Alexandria was founded with the lofty ambition to gather and preserve all the world’s knowledge under one roof. The Ptolemies of Egypt dispatched their agents to the marketplaces of Athens, Syracuse, and Rhodes in search of valuable papyri. Ships sailing into the bustling port of Alexandria were searched and any books found on board were confiscated&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Eventually, a large collection of influential original works was amassed, covering all manner of subjects from poetry to mathematics, penned by such luminaries as Aristotle and Euripides. And then, torched by fire, jolted by earthquake, and ravaged by warfare, the Great Library crumbled into ruin, and a valuable portion of the scholarly record was lost forever&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:great-library-fig&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/greatLibrary.jpg&#34; alt=&#34;The demise of the Great Library of Alexandria.&#34;  /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: The demise of the Great Library of Alexandria.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;The demise of the Great Library of Alexandria is a cautionary tale: most would lament such a catastrophic loss and wish that it never be repeated. And yet in the modern era, I will contend, an extensive and ongoing attrition of the scholarly record is being widely tolerated. Firstly, let me expand upon what I mean by “the scholarly record”. It is instinctive to view the scholarly record as the collection of written articles through which we communicate our research - the books and research reports lined up on the shelves of libraries and residing in digital archives. But this view is quite superficial – it is as if you are looking down on a rainforest from a helicopter and not appreciating what lies beneath the canopy. A deeper perspective frames the modern scholarly record as a rich ecosystem of research artifacts: articles, study materials, protocols, analysis code, and data (Figure &lt;a href=&#34;#fig:scholarly-record&#34;&gt;2&lt;/a&gt;). From this point of view, an article is only a high-level summary: a verbal scaffold that collates, organizes, and describes a mosaic of other research artifacts.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:scholarly-record&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/scholarly-record.png&#34; alt=&#34;The modern scholarly record as a rich ecosystem of research artifacts: articles, study materials, protocols, analysis code, and data.&#34;  /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 2: The modern scholarly record as a rich ecosystem of research artifacts: articles, study materials, protocols, analysis code, and data.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Viewing the scholarly record as a mere collection of articles makes it easy to overlook that other research artifacts have important roles to play in the scientific endeavour. Figure &lt;a href=&#34;#fig:open-sci-activities&#34;&gt;3&lt;/a&gt; depicts a number of research activities that are either facilitated by or entirely depend upon having access to one or more research artifacts&lt;a href=&#34;#fn3&#34; class=&#34;footnoteRef&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. When research artifacts are unavailable, it undermines the efficiency and credibility of the scientific endeavour by disrupting or preventing these important research activities&lt;a href=&#34;#fn4&#34; class=&#34;footnoteRef&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. A striking example is the &lt;a href=&#34;https://dx.doi.org/10.1126/science.aau9619&#34;&gt;recent dire news&lt;/a&gt; that the Reproducibility Project: Cancer Biology has found it necessary to terminate 32 of its 50 target replication attempts due to a lack of methodological information and access to materials from the original studies.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:open-sci-activities&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/open-sci-activities.png&#34; alt=&#34;An open scholarly record, richly populated with research artifacts, enables a number of important research activties that faciliate verification, discovery, and evidence-synthesis.&#34;  /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 3: An open scholarly record, richly populated with research artifacts, enables a number of important research activties that faciliate verification, discovery, and evidence-synthesis.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Raw data is arguably the most foundational artifact in the scholarly record – it is the empirical evidence that substantiates scientific claims. Data enables independent verification through re-analysis, whether that be repeating the original analysis to establish &lt;a href=&#34;https://dx.doi.org/10.31222/osf.io/39cfb&#34;&gt;analytic reproducibility&lt;/a&gt;, or running variations of the original analysis to assess &lt;a href=&#34;https://dx.doi.org/10.1177/1745691616658637&#34;&gt;analytic robustness&lt;/a&gt;. Data can also be &lt;a href=&#34;http://dx.plos.org/10.1371/journal.pcbi.1005037&#34;&gt;re-analysed in novel ways&lt;/a&gt;, perhaps by other scientists who differ in expertise or theoretical approach, or perhaps by future scientists who have access to some equipment or technique that does not currently exist. Finally, raw data can enable &lt;a href=&#34;https://doi.org/10.1136/bmj.c221&#34;&gt;more sophisticated forms of evidence synthesis&lt;/a&gt; beyond what can be achieved by meta-analysis of aggregated data.&lt;/p&gt;
-&lt;p&gt;The extant scientific literature consists of an enormous body of articles reporting findings and making claims, but it is rare to see the research data that substantiates them&lt;a href=&#34;#fn5&#34; class=&#34;footnoteRef&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;. After articles have been published, the data files typically exist on temporary life support – only a fragile network of vines beneath the canopy tentatively binds research artifacts to published articles. Over time this ad-hoc system starts to atrophy: hard drives fail, e-mail addresses stop functioning, colleagues move on, and before long, the &lt;a href=&#34;https://dx.doi.org/10.1016/j.cub.2013.11.014&#34;&gt;data is practically no longer retrievable&lt;/a&gt;. Requesting data directly from authors is typically not successful&lt;a href=&#34;#fn6&#34; class=&#34;footnoteRef&#34; id=&#34;fnref6&#34;&gt;&lt;sup&gt;6&lt;/sup&gt;&lt;/a&gt;. Other research artifacts suffer a similar fate. For example, in my work I have documented a lack of access to &lt;a href=&#34;https://dx.doi.org/10.31222/osf.io/fzpcy&#34;&gt;study protocols&lt;/a&gt;, &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/39CFB&#34;&gt;analysis scripts&lt;/a&gt;, and &lt;a href=&#34;https://doi.org/10.1371/journal.pbio.1002456&#34;&gt;study materials&lt;/a&gt;. There was no fire, or earthquake, or war to draw our attention to this state of affairs, but it could be that most of the data generated by humanity’s previous scientific ventures have now been irrecoverably lost.&lt;/p&gt;
-&lt;p&gt;What can be done? Many efforts are underway to increase the preservation and accessibility of research artifacts for future studies. For example, we &lt;a href=&#34;https://dx.doi.org/10.31222/osf.io/39cfb&#34;&gt;recently found&lt;/a&gt;, that a mandatory open data policy introduced at the journal &lt;em&gt;Cognition&lt;/em&gt; was highly effective at increasing access to data&lt;a href=&#34;#fn7&#34; class=&#34;footnoteRef&#34; id=&#34;fnref7&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&lt;/a&gt;. But these efforts will not address the fact that data remains unavailable for the majority of the extant published literature. This was the motivation for &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0201856&#34;&gt;our recent effort to create the Data Ark&lt;/a&gt;: an open online repository where data retrieved from influential scientific studies could be preserved and liberated for verification and re-use by the research community. Essentially, this was an attempt to reinforce a critical part of the scholarly record and ensure its accessibility and longevity.&lt;/p&gt;
-&lt;p&gt;We began by contacting the authors of 111 of the most highly-cited articles published in psychology and psychiatry between 2006 and 2016, and asked if they would be willing to share the corresponding raw data publicly in the Data Ark. We also provided the option of suggesting that certain access restrictions be put in place, for example in the case of sensitive data. If authors were unwilling to share, we asked for the reason(s) why so we could better understand barriers to data sharing.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:data-ark-fig&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/blog/2018-08-04-attrition-scholarly-record_files/figure-html/data-ark-fig-1.png&#34; alt=&#34;Responses to our data sharing request in an effort to populate the Data Ark. You can see a breakdown of responses based on field (psychology vs. psychiatry) and time period (2006-2011 vs. 2014-2016) in the [paper](https://doi.org/10.1371/journal.pone.0201856).&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 4: Responses to our data sharing request in an effort to populate the Data Ark. You can see a breakdown of responses based on field (psychology vs. psychiatry) and time period (2006-2011 vs. 2014-2016) in the &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0201856&#34;&gt;paper&lt;/a&gt;.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;The main findings are shown in Figure &lt;a href=&#34;#fig:data-ark-fig&#34;&gt;4&lt;/a&gt;. As you can see, we were only able to retrieve 10 out of the 111 target data sets for unrestricted sharing in the Data Ark (you can &lt;a href=&#34;https://osf.io/view/DataArk/&#34;&gt;find them here&lt;/a&gt;). Note that in 22 cases data were already being shared via some existing system, but only 5 of these allowed unrestricted access. Of course data sharing is not always straightforward and can be constrained by legal or ethical obligations. We discuss additional findings related to these issues in our &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0201856&#34;&gt;paper&lt;/a&gt;, such as the access restrictions for existing sharing schemes and the reasons provided by authors who responded that they would not share. However, in the many cases where we received no response, it was impossible to learn about these potential barriers, and for the scientific community to judge if there are appropriate reasons not to share. These data are essentially lost.&lt;/p&gt;
-&lt;p&gt;Our initial efforts to populate the Data Ark have highlighted just how challenging it can be to retrieve and preserve data from published studies. We had hoped that targeting particularly influential studies would yield a higher success rate than previous retrieval efforts. It should be a priority that these data are preserved and liberated to enable independent verification and re-use by the scientific community. It may be that data requests are more likely to be successful in the context of a specific research project and when tangible benefits (e.g., authorship on a paper) for original authors are more obvious. For example, data retrieval seems to have been highly successful in &lt;a href=&#34;https://orca.cf.ac.uk/109813/1/Morey.%20Benchmarks%20for%20model.pdf&#34;&gt;a recent effort to establish an empirical common ground&lt;/a&gt; for the purposes of computational modeling in the domain of short-term and working memory.&lt;/p&gt;
-&lt;p&gt;Unfortunately, we do not know what substantive scientific projects of the future would bear fruit if only they could be pollinated by the scientific data of today. That is why it is essential to ensure the preservation of important data while we still have the chance to retrieve them. Our findings clearly raise questions about the current norms of data stewardship. As a community we do not deem it appropriate for researchers to grant ethical approval for their own studies - is it not similarly inappropriate for researchers who originally generated data to retain responsibility for their preservation and govern their access? Would journals, data repositories, and/or ethics boards be more reliable and impartial custodians of data?&lt;/p&gt;
-&lt;p&gt;The modern scholarly record is not under threat from fire, earthquake, or war, but action is needed to avert the consequences of neglectful stewardship. How many published claims cannot be directly verified because the underlying data that substantiates them are not available? How many new discoveries have we missed because data cannot be re-used in novel analyses? How many replication attempts have been thwarted by a lack of access to original study materials? How many resources have been wasted re-building stimuli and re-writing code that our colleagues have already laboured on? How many misleading findings could have been avoided if pre-registered protocols enabled the research community to identify and challenge ‘behind the scenes’ research decisions? The ongoing attrition of research artifacts has led to a greatly impoverished scholarly record – a desolate landscape of withered vines where flowers could be blooming. An ancient scholar lamenting the demise of the Great Library would look at their modern descendants, blessed as they are with their God-like technological powers, and wonder how they could possibly tolerate such a situation.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;rather cheekily, it appears that owners were often reimbursed with copies, whilst the original literary texts were purloined for the Great Library’s collection.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;there is considerable uncertainty about the nature and timeline of events that led to the library’s demise. &lt;a href=&#34;http://dx.doi.org/10.2307/2165947&#34;&gt;Delia (1992)&lt;/a&gt; discusses various accounts.&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;for more details see the “Why share” section of &lt;a href=&#34;https://doi.org/10.1525/collabra.158&#34;&gt;Klein et al. (2018)&lt;/a&gt;&lt;a href=&#34;#fnref3&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;see for example &lt;a href=&#34;https://dx.doi.org/10.1016/%20S0140-6736(13)62296-5&#34;&gt;Chan et al. (2014)&lt;/a&gt; and &lt;a href=&#34;https://dx.doi.org/10.1177/1745691612464056&#34;&gt;Ioannidis (2012)&lt;/a&gt;&lt;a href=&#34;#fnref4&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;see for example &lt;a href=&#34;https://dx.doi.org/10.1371/journal.pone.0024357&#34;&gt;Alsheikh-Ali et al. (2011)&lt;/a&gt; and &lt;a href=&#34;https://dx.doi.org/10.1371/journal.pbio.1002333&#34;&gt;Iqbal et al. (2016)&lt;/a&gt;&lt;a href=&#34;#fnref5&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn6&#34;&gt;&lt;p&gt;see for example &lt;a href=&#34;http://doi.org/10.1525/collabra.13&#34;&gt;Vanpaemel et al. (2015)&lt;/a&gt; and &lt;a href=&#34;https://doi.org/10.1037/0003-066X.61.7.726&#34;&gt;Wicherts et al. (2006)&lt;/a&gt;&lt;a href=&#34;#fnref6&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn7&#34;&gt;&lt;p&gt;Also see &lt;a href=&#34;https://dx.doi.org/10.1525/collabra.102&#34;&gt;Nuijten et al. (2017)&lt;/a&gt;&lt;a href=&#34;#fnref7&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
+      <guid>/contact/</guid>
+      <description>The best way to reach me is via e-mail: tom.hardwicke [@] uva.nl</description>
     </item>
     
     <item>
       <title>Publications</title>
       <link>/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
       
       <guid>/publications/</guid>
-      <description>
-
-
-&lt;p&gt;&lt;small&gt;&lt;/p&gt;
-&lt;div id=&#34;preprints&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Preprints&lt;/h3&gt;
-&lt;p&gt;Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E. J., &amp;amp; Frank, M. C. (submitted). Analytic reproducibility in articles receiving open data badges at Psychological Science: An observational study.&lt;br /&gt;
-&lt;a href=&#34;http://doi.org/d3mz&#34;&gt;[pre-print]&lt;/a&gt; &lt;a href=&#34;https://osf.io/2cnkq/&#34;&gt;[pre-registration]&lt;/a&gt; &lt;a href=&#34;https://osf.io/n3dej/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/n3dej/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/n3dej/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.1796004.v1&#34;&gt;[reproducibleContainer]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E., &amp;amp; Goodman, S. N. (submitted). How often do leading biomedical journals use statistical experts to evaluate statistical methods? The results of a survey.&lt;br /&gt;
-&lt;a href=&#34;https://doi.org/10.31222/osf.io/z27u4&#34;&gt;[preprint]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.17605/osf.io/nscv3&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.17605/osf.io/p7g8w&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.17605/osf.io/dy6kj&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.3883021.v1&#34;&gt;[reproducibleContainer]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., &amp;amp; Ioannidis, J. P. A. (submitted). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017).&lt;br /&gt;
-&lt;a href=&#34;https://doi.org/10.31222/osf.io/9sz2y&#34;&gt;[pre-print]&lt;/a&gt; &lt;a href=&#34;https://osf.io/q96eh/&#34;&gt;[pre-registration]&lt;/a&gt; &lt;a href=&#34;https://osf.io/5qmz7/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/c89sy/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/gfjtq/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.1618143.v1&#34;&gt;[reproducibleContainer]&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;section&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;2020&lt;/h3&gt;
-&lt;p&gt;Hardwicke, T. E., Serghiou, S., Janiaud, P., Danchev, V., Crüwell, S., Goodman, S. N., &amp;amp; Ioannidis, J. P. A. (2020). Calibrating the scientific ecosystem through meta-research. &lt;em&gt;Annual Review of Statistics and its Application&lt;/em&gt;, &lt;em&gt;7&lt;/em&gt;, 11-37.&lt;br /&gt;
-&lt;a href=&#34;https://doi.org/10.1146/annurev-statistics-031219-041104&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.31222/osf.io/krb58&#34;&gt;[pre-print]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Ferrero, M., Hardwicke, T. E., Konstantinidis, E., &amp;amp; Vadillo, M. A. (2020). The effectiveness of refutation texts to correct misconceptions among educators. &lt;em&gt;Journal of Experimental Psychology: Applied.&lt;/em&gt;&lt;br /&gt;
-&lt;a href=&#34;https://psycnet.apa.org/doi/10.1037/xap0000258&#34;&gt;[doi]&lt;/a&gt;
-&lt;a href=&#34;https://doi.org/10.31234/osf.io/ehybj&#34;&gt;[pre-print]&lt;/a&gt; &lt;a href=&#34;https://osf.io/sg6jy/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/73a9y/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/pxv5b/&#34;&gt;[analysisCode]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E., Wallach, J. D., Kidwell, M. C., Bendixen, T., Crüwell, S., &amp;amp; Ioannidis, J. P. A. (2020). An empirical assessment of transparency and reproducibility-related research practices in the social sciences (2014-2017). &lt;em&gt;Royal Society Open Science&lt;/em&gt;, &lt;em&gt;7&lt;/em&gt;, 190806.&lt;br /&gt;
-&lt;a href=&#34;http://dx.doi.org/10.1098/rsos.190806&#34;&gt;[doi]&lt;/a&gt;
-&lt;a href=&#34;https://doi.org/10.31222/osf.io/6uhg5&#34;&gt;[pre-print]&lt;/a&gt; &lt;a href=&#34;https://osf.io/u5bk9/&#34;&gt;[pre-registration]&lt;/a&gt; &lt;a href=&#34;https://osf.io/z9qtr/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/u9fw8/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/sbrez/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.2749769.v2&#34;&gt;[reproducibleContainer]&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;section-1&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;2019&lt;/h3&gt;
-&lt;p&gt;Hardwicke, T. E., &amp;amp; Ioannidis, J. P. A. (2019). Petitions in scientific argumentation: dissecting the request to retire statistical significance. &lt;em&gt;European Journal of Clinical Investigation&lt;/em&gt;, &lt;em&gt;49&lt;/em&gt;, e13162.&lt;br /&gt;
-&lt;a href=&#34;https://doi.org/10.1111/eci.13162&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.31222/osf.io/73xm5&#34;&gt;[pre-print]&lt;/a&gt; &lt;a href=&#34;https://osf.io/hbkj3/&#34;&gt;[pre-registration]&lt;/a&gt; &lt;a href=&#34;https://osf.io/u7nx4/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/6a94k/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/jpztm/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.3912558.v1&#34;&gt;[reproducibleContainer]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.1111/eci.13165&#34;&gt;[comment1]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.1111/eci.13170&#34;&gt;[comment2]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.1111/eci.13176&#34;&gt;[comment3]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K., Hardwicke, T. E., Mellor, D. T., van ‘t Veer, A. E., &amp;amp; Vazire, S. (2019). Preregistration is hard, and worthwhile. &lt;em&gt;Trends in Cognitive Sciences&lt;/em&gt;, &lt;em&gt;23&lt;/em&gt;, 815-818.&lt;br /&gt;
-&lt;a href=&#34;https://doi.org/10.1016/j.tics.2019.07.009&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.31234/osf.io/wu3vs&#34;&gt;[pre-print]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E., Frank, M. C., Vazire, S., &amp;amp; Goodman, S. N. (2019). Should psychology journals adopt specialized statistical review? &lt;em&gt;Advances in Methods and Practices in Psychological Science&lt;/em&gt;, &lt;em&gt;2&lt;/em&gt;, 240-249.&lt;br /&gt;
-&lt;a href=&#34;https://doi.org/10.1177/2515245919858428&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/Hardwicke_statreviewpsych_2019.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/nquws/files/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/tmah8/files/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/4zurk/files/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.8241121.v3&#34;&gt;[reproducibleContainer]&lt;/a&gt; &lt;a href=&#34;https://www.psychologicalscience.org/publications/observer/obsonline/strengthening-psychological-science-with-specialized-statistical-review.html?utm_source=tw&amp;amp;utm_medium=social&amp;amp;utm_campaign=AMPPSstatisticalreview&#34;&gt;[media]&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;section-2&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;2018&lt;/h3&gt;
-&lt;p&gt;Hardwicke, T. E. &amp;amp; Ioannidis, J. P. A. (2018). Mapping the universe of registered reports. &lt;em&gt;Nature Human Behaviour&lt;/em&gt;, &lt;em&gt;2&lt;/em&gt;, 793-796.&lt;br /&gt;
-&lt;a href=&#34;https://doi.org/10.1038/s41562-018-0444-y&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;https://rdcu.be/8eBP&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/rv7eb/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/uzegq/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/uzfjp/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v3&#34;&gt;[reproducibleContainer]&lt;/a&gt; &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/FZPCY&#34;&gt;[pre-print]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.1038/s41562-018-0449-6&#34;&gt;[comment]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.1038/s41562-018-0477-2&#34;&gt;[comment2]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E., Mathur, M. B., MacDonald, K., Nilsonne, G., Banks, G. C., Kidwell, M. C., Hofelich Mohr, A., Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R. L., Altman, S., Long, B., &amp;amp; Frank, M. C. (2018). Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition. &lt;em&gt;Royal Society Open Science&lt;/em&gt;, &lt;em&gt;5&lt;/em&gt;, e180448.&lt;br /&gt;
-&lt;a href=&#34;https://dx.doi.org/10.1098/rsos.180448&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/Hardwicke_reproducibility_2018.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/q4qy3/&#34;&gt;[pre-registration]&lt;/a&gt; &lt;a href=&#34;https://osf.io/6s8b3/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/k2mdr/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/wf3as/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2&#34;&gt;[reproducibleContainer]&lt;/a&gt; &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/39CFB&#34;&gt;[pre-print]&lt;/a&gt; &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/psychology-reproducibility/&#34;&gt;[blog1]&lt;/a&gt; &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/open-data-reusability/&#34;&gt;[blog2]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.1016/j.cognition.2018.10.008&#34;&gt;[comment]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E. &amp;amp; Ioannidis, J. P. A. (2018). Populating the Data Ark: An attempt to retrieve, preserve, and liberate data from the most highly-cited psychology and psychiatry articles. &lt;em&gt;PLOS ONE&lt;/em&gt;, &lt;em&gt;13&lt;/em&gt;, e0201856.&lt;br /&gt;
-&lt;a href=&#34;https://doi.org/10.1371/journal.pone.0201856&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/Hardwicke_Ioannidis_2018_plos_one.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/r38qu/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/4dum6/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/7syrt/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2&#34;&gt;[reproducibleContainer]&lt;/a&gt; &lt;a href=&#34;https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/&#34;&gt;[blog]&lt;/a&gt; &lt;a href=&#34;http://blogs.discovermagazine.com/neuroskeptic/2018/08/06/how-accessible-is-psychology-data/&#34;&gt;[media]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E., Henry Tessler, M., Peloquin, B., &amp;amp; Frank, M. C. (2018). A Bayesian decision-making framework for replication. &lt;em&gt;Behavioral and Brain Sciences&lt;/em&gt;, &lt;em&gt;41&lt;/em&gt;, e132.&lt;br /&gt;
-&lt;a href=&#34;https://doi.org/10.1017/S0140525X18000675&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/Zwann_replication_2018.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/N3YAH&#34;&gt;[pre-print]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., &amp;amp; Frank, M. C. (2018). A practical guide for transparency in psychological science. &lt;em&gt;Collabra: Psychology&lt;/em&gt;, &lt;em&gt;4&lt;/em&gt;, e20.&lt;br /&gt;
-&lt;a href=&#34;http://doi.org/10.1525/collabra.158&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/transparencyGuide.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/xf6ug/&#34;&gt;[materials]&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;section-3&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;2017&lt;/h3&gt;
-&lt;p&gt;Cristea, I. A., Naudet, F., Shanks, D. R., &amp;amp; Hardwicke, T. E. (2017). Post-retrieval Tetris should not be likened to a ‘cognitive vaccine’. &lt;em&gt;Molecular Psychiatry&lt;/em&gt;, &lt;em&gt;23&lt;/em&gt;, 1972–1973.&lt;br /&gt;
-&lt;a href=&#34;http://dx.doi.org/10.1038/mp.2017.222&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/Cristea_tetris_2017.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/nwz9j/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/p3z58/&#34;&gt;[analysisCode]&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;section-4&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;2016&lt;/h3&gt;
-&lt;p&gt;Kidwell, M. C., Lazarević, L. B., Baranski, E., Hardwicke, T. E., Piechowski, S., Falkenberg, L-S., Kennett, C., Slowik, A., Sonnleitner, C., Hess-Holden, C., Errington, T. M., Fiedler, S., &amp;amp; Nosek, B. A. (2016). Badges to acknowledge open practices: A simple, low cost, effective method for increasing transparency. &lt;em&gt;PLOS Biology&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;, e1002456.&lt;br /&gt;
-&lt;a href=&#34;https://dx.doi.org/10.1371/journal.pbio.1002456&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/openBadges.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/3upzh/&#34;&gt;[pre-registration]&lt;/a&gt; &lt;a href=&#34;https://osf.io/u6g7t/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/8kt4b/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/257kv/&#34;&gt;[analysisCode]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E. &amp;amp; Shanks, D. R. (2016). Reply to Walker and Stickgold: Proposed boundary conditions on memory reconsolidation will require empirical verification. &lt;em&gt;PNAS&lt;/em&gt;, &lt;em&gt;113&lt;/em&gt;, e3993-e3994.&lt;br /&gt;
-&lt;a href=&#34;https://dx.doi.org/10.1073/pnas.1608235113&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/sequenceReconReply.pdf&#34;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E., Mahdi, T., &amp;amp; Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation. &lt;em&gt;PNAS&lt;/em&gt;, &lt;em&gt;113&lt;/em&gt;, 5206-5211.&lt;br /&gt;
-&lt;a href=&#34;https://dx.doi.org/10.1073/pnas.1601440113&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/sequenceRecon.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/bm47u/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/xyf34/&#34;&gt;[materials]&lt;/a&gt; &lt;a href=&#34;https://osf.io/se6gb/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://doi.org/10.1073/pnas.1607964113&#34;&gt;[comment]&lt;/a&gt; &lt;a href=&#34;http://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/&#34;&gt;[media]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Vadillo, M. A., Hardwicke, T. E., &amp;amp; Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015). &lt;em&gt;Journal of Experimental Psychology: General&lt;/em&gt;, &lt;em&gt;145&lt;/em&gt;, 655-663.&lt;br /&gt;
-&lt;a href=&#34;https://dx.doi.org/10.1037/xge0000157&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/moneyPriming.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/4e3gy/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;http://blogs.discovermagazine.com/neuroskeptic/2016/04/23/publication-bias-in-money-priming/&#34;&gt;[media]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E. (2016). Persistence and plasticity in the human memory system: An empirical investigation of the overwriting hypothesis. &lt;em&gt;PhD Thesis&lt;/em&gt;.&lt;br /&gt;
-&lt;a href=&#34;https://dx.doi.org/10.17605/OSF.IO/R4C32&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/Hardwicke_thesis.pdf&#34;&gt;[pdf]&lt;/a&gt; &lt;a href=&#34;https://osf.io/rxtgs/&#34;&gt;[data]&lt;/a&gt; &lt;a href=&#34;https://osf.io/rxtgs/&#34;&gt;[analysisCode]&lt;/a&gt; &lt;a href=&#34;https://osf.io/rxtgs/&#34;&gt;[osf]&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;before-2016&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Before 2016&lt;/h3&gt;
-&lt;p&gt;Baker, R., Dexter, M., Hardwicke, T. E., Goldstone, A., &amp;amp; Kourtzi, Z. (2014). Learning to predict: Exposure to temporal sequences facilitates prediction of future events. &lt;em&gt;Vision Research&lt;/em&gt;, &lt;em&gt;99&lt;/em&gt;, 124-133.&lt;br /&gt;
-&lt;a href=&#34;http://dx.doi.org/10.1016/j.visres.2013.10.017&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/learningToPredict.pdf&#34;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Ludwig, C. J. H., Farrell, S., Ellis, L. A., Hardwicke, T. E., &amp;amp; Gilchrist, I. D. (2012). Context-gated statistical learning and its role in visual-saccadic decisions. &lt;em&gt;Journal of Experimental Psychology: General&lt;/em&gt;, &lt;em&gt;141&lt;/em&gt;, 150-169.&lt;br /&gt;
-&lt;a href=&#34;http://dx.doi.org/10.1037/a0024916&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/contextGatedSL.pdf&#34;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E., Jameel, L., Jones, M., Walczak, E. J., &amp;amp; Magis-Weinberg, L. (2014). Only human: Scientists, systems, and suspect statistics. &lt;em&gt;Opticon1826&lt;/em&gt;, &lt;em&gt;25&lt;/em&gt;, 1-12.&lt;br /&gt;
-&lt;a href=&#34;http://dx.doi.org/10.5334/opt.ch&#34;&gt;[doi]&lt;/a&gt; &lt;a href=&#34;/files/onlyHuman.pdf&#34;&gt;[pdf]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hardwicke, T. E. (2012). Biological Psychology. &lt;em&gt;Psychology Learning &amp;amp; Teaching&lt;/em&gt;, &lt;em&gt;1&lt;/em&gt;, 106-122.&lt;br /&gt;
-&lt;a href=&#34;http://dx.doi.org/10.2304/plat.2012.11.1.106&#34;&gt;[doi]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
+      <description>Preprints Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E.</description>
+    </item>
+    
+    <item>
+      <title>How to test dark mode?</title>
+      <link>/posts/post-7/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
+      
+      <guid>/posts/post-7/</guid>
+      <description>You can set dark mode as default by setting params.mode to dark in config.toml or set it to auto which will detect based on your OS and switch to dark mode.</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>/posts/post-5/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
+      
+      <guid>/posts/post-5/</guid>
+      <description>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad.</description>
+    </item>
+    
+    <item>
+      <title>Hugo shortcodes</title>
+      <link>/posts/post-6/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      
+      <guid>/posts/post-6/</guid>
+      <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Traveling Ultralight</title>
+      <link>/posts/post-4/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:35 +0530</pubDate>
+      
+      <guid>/posts/post-4/</guid>
+      <description>I’m on a trip at the moment, and a friend who generously let me sleep on his couch looked at my small travel backpack and commented on how little I travel with: “That’s impressive,” he said.</description>
+    </item>
+    
+    <item>
+      <title>How I Learned to Stop Procrastinating, &amp; Love Letting Go</title>
+      <link>/posts/post-3/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:32 +0530</pubDate>
+      
+      <guid>/posts/post-3/</guid>
+      <description>The end of procrastination is the art of letting go.
+I’ve been a lifelong procrastinator, at least until recent years. I would put things off until deadline, because I knew I could come through.</description>
+    </item>
+    
+    <item>
+      <title>Fearlessness: How to Stop Running from Space</title>
+      <link>/posts/post-2/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
+      
+      <guid>/posts/post-2/</guid>
+      <description>We spend our days filling in every available space, cramming in more tasks, responding to messages, checking social media and online sites, watching videos.</description>
+    </item>
+    
+    <item>
+      <title>Primer: When You Have Too Much to Do</title>
+      <link>/posts/post-1/</link>
+      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
+      
+      <guid>/posts/post-1/</guid>
+      <description>You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.</description>
     </item>
     
   </channel>

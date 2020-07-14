@@ -1,0 +1,97 @@
+---
+date: "2019-04-19T21:37:58+05:30"
+title: Publications
+type: page
+---
+
+<small>
+
+### Preprints
+
+Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E. J., & Frank, M. C. (submitted). Analytic reproducibility in articles receiving open data badges at Psychological Science: An observational study.   
+[[pre-print]](http://doi.org/d3mz) [[pre-registration]](https://osf.io/2cnkq/) [[data]](https://osf.io/n3dej/) [[materials]](https://osf.io/n3dej/) [[analysisCode]](https://osf.io/n3dej/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1796004.v1)
+
+Hardwicke, T. E., & Goodman, S. N. (submitted). How often do leading biomedical journals use statistical experts to evaluate statistical methods? The results of a survey.  
+[[preprint]](https://doi.org/10.31222/osf.io/z27u4) [[data]](https://doi.org/10.17605/osf.io/nscv3) [[materials]](https://doi.org/10.17605/osf.io/p7g8w) [[analysisCode]](https://doi.org/10.17605/osf.io/dy6kj) [[reproducibleContainer]](https://doi.org/10.24433/CO.3883021.v1)
+
+Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (submitted). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017).  
+[[pre-print]](https://doi.org/10.31222/osf.io/9sz2y) [[pre-registration]](https://osf.io/q96eh/) [[data]](https://osf.io/5qmz7/) [[materials]](https://osf.io/c89sy/) [[analysisCode]](https://osf.io/gfjtq/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1618143.v1)
+
+### 2020
+
+Hardwicke, T. E., Serghiou, S., Janiaud, P., Danchev, V., Crüwell, S., Goodman, S. N., & Ioannidis, J. P. A. (2020). Calibrating the scientific ecosystem through meta-research. *Annual Review of Statistics and its Application*, *7*, 11-37.  
+[[doi]](https://doi.org/10.1146/annurev-statistics-031219-041104) [[pre-print]](https://doi.org/10.31222/osf.io/krb58)
+
+Ferrero, M., Hardwicke, T. E., Konstantinidis, E., & Vadillo, M. A. (2020). The effectiveness of refutation texts to correct misconceptions among educators. *Journal of Experimental Psychology: Applied.*  
+[[doi]](https://psycnet.apa.org/doi/10.1037/xap0000258)
+[[pre-print]](https://doi.org/10.31234/osf.io/ehybj) [[data]](https://osf.io/sg6jy/) [[materials]](https://osf.io/73a9y/) [[analysisCode]](https://osf.io/pxv5b/)
+
+Hardwicke, T. E., Wallach, J. D., Kidwell, M. C., Bendixen, T., Crüwell, S., & Ioannidis, J. P. A. (2020). An empirical assessment of transparency and reproducibility-related research practices in the social sciences (2014-2017). *Royal Society Open Science*, *7*, 190806.  
+[[doi]](http://dx.doi.org/10.1098/rsos.190806)
+[[pre-print]](https://doi.org/10.31222/osf.io/6uhg5) [[pre-registration]](https://osf.io/u5bk9/) [[materials]](https://osf.io/z9qtr/) [[data]](https://osf.io/u9fw8/) [[analysisCode]](https://osf.io/sbrez/) [[reproducibleContainer]](https://doi.org/10.24433/CO.2749769.v2)
+
+### 2019
+
+Hardwicke, T. E., & Ioannidis, J. P. A. (2019). Petitions in scientific argumentation: dissecting the request to retire statistical significance. *European Journal of Clinical Investigation*, *49*, e13162.  
+[[doi]](https://doi.org/10.1111/eci.13162) [[pre-print]](https://doi.org/10.31222/osf.io/73xm5) [[pre-registration]](https://osf.io/hbkj3/) [[materials]](https://osf.io/u7nx4/) [[data]](https://osf.io/6a94k/) [[analysisCode]](https://osf.io/jpztm/) [[reproducibleContainer]](https://doi.org/10.24433/CO.3912558.v1) [[comment1]](https://doi.org/10.1111/eci.13165) [[comment2]](https://doi.org/10.1111/eci.13170) [[comment3]](https://doi.org/10.1111/eci.13176)
+
+Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K., Hardwicke, T. E., Mellor, D. T., van ‘t Veer, A. E., & Vazire, S. (2019). Preregistration is hard, and worthwhile. *Trends in Cognitive Sciences*, *23*, 815-818.  
+[[doi]](https://doi.org/10.1016/j.tics.2019.07.009) [[pre-print]](https://doi.org/10.31234/osf.io/wu3vs)
+
+Hardwicke, T. E., Frank, M. C., Vazire, S., & Goodman, S. N. (2019). Should psychology journals adopt specialized statistical review? *Advances in Methods and Practices in Psychological Science*, *2*, 240-249.  
+[[doi]](https://doi.org/10.1177/2515245919858428) [[pdf]](/files/Hardwicke_statreviewpsych_2019.pdf) [[data]](https://osf.io/nquws/files/) [[materials]](https://osf.io/tmah8/files/) [[analysisCode]](https://osf.io/4zurk/files/) [[reproducibleContainer]](https://doi.org/10.24433/CO.8241121.v3) [[media]](https://www.psychologicalscience.org/publications/observer/obsonline/strengthening-psychological-science-with-specialized-statistical-review.html?utm_source=tw&utm_medium=social&utm_campaign=AMPPSstatisticalreview)
+
+### 2018
+
+Hardwicke, T. E. & Ioannidis, J. P. A. (2018). Mapping the universe of registered reports. *Nature Human Behaviour*, *2*, 793-796.  
+[[doi]](https://doi.org/10.1038/s41562-018-0444-y) [[pdf]](https://rdcu.be/8eBP) [[data]](https://osf.io/rv7eb/) [[materials]](https://osf.io/uzegq/) [[analysisCode]](https://osf.io/uzfjp/) [[reproducibleContainer]](https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v3) [[pre-print]](https://dx.doi.org/10.17605/OSF.IO/FZPCY) [[comment]](https://doi.org/10.1038/s41562-018-0449-6) [[comment2]](https://doi.org/10.1038/s41562-018-0477-2)
+
+Hardwicke, T. E., Mathur, M. B., MacDonald, K., Nilsonne, G., Banks, G. C., Kidwell, M. C., Hofelich Mohr, A., Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R. L., Altman, S., Long, B., & Frank, M. C. (2018). Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition. *Royal Society Open Science*, *5*, e180448.  
+[[doi]](https://dx.doi.org/10.1098/rsos.180448) [[pdf]](/files/Hardwicke_reproducibility_2018.pdf) [[pre-registration]](https://osf.io/q4qy3/) [[data]](https://osf.io/6s8b3/) [[materials]](https://osf.io/k2mdr/) [[analysisCode]](https://osf.io/wf3as/) [[reproducibleContainer]](https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2) [[pre-print]](https://dx.doi.org/10.17605/OSF.IO/39CFB) [[blog1]](https://tomhardwicke.netlify.com/blog/psychology-reproducibility/) [[blog2]](https://tomhardwicke.netlify.com/blog/open-data-reusability/) [[comment]](https://doi.org/10.1016/j.cognition.2018.10.008)
+
+Hardwicke, T. E. & Ioannidis, J. P. A. (2018). Populating the Data Ark: An attempt to retrieve, preserve, and liberate data from the most highly-cited psychology and psychiatry articles. *PLOS ONE*, *13*, e0201856.  
+[[doi]](https://doi.org/10.1371/journal.pone.0201856) [[pdf]](/files/Hardwicke_Ioannidis_2018_plos_one.pdf) [[data]](https://osf.io/r38qu/) [[materials]](https://osf.io/4dum6/) [[analysisCode]](https://osf.io/7syrt/) [[reproducibleContainer]](https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2) [[blog]](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/) [[media]](http://blogs.discovermagazine.com/neuroskeptic/2018/08/06/how-accessible-is-psychology-data/)
+
+Hardwicke, T. E., Henry Tessler, M., Peloquin, B., & Frank, M. C. (2018). A Bayesian decision-making framework for replication. *Behavioral and Brain Sciences*, *41*, e132.  
+[[doi]](https://doi.org/10.1017/S0140525X18000675) [[pdf]](/files/Zwann_replication_2018.pdf) [[pre-print]](https://dx.doi.org/10.17605/OSF.IO/N3YAH)
+
+Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., & Frank, M. C. (2018). A practical guide for transparency in psychological science. *Collabra: Psychology*, *4*, e20.  
+[[doi]](http://doi.org/10.1525/collabra.158) [[pdf]](/files/transparencyGuide.pdf) [[materials]](https://osf.io/xf6ug/)
+
+### 2017
+
+Cristea, I. A., Naudet, F., Shanks, D. R., & Hardwicke, T. E. (2017). Post-retrieval Tetris should not be likened to a ‘cognitive vaccine’. *Molecular Psychiatry*, *23*, 1972–1973.  
+[[doi]](http://dx.doi.org/10.1038/mp.2017.222) [[pdf]](/files/Cristea_tetris_2017.pdf) [[data]](https://osf.io/nwz9j/) [[analysisCode]](https://osf.io/p3z58/)
+
+### 2016
+
+Kidwell, M. C., Lazarević, L. B., Baranski, E., Hardwicke, T. E., Piechowski, S., Falkenberg, L-S., Kennett, C., Slowik, A., Sonnleitner, C., Hess-Holden, C., Errington, T. M., Fiedler, S., & Nosek, B. A. (2016). Badges to acknowledge open practices: A simple, low cost, effective method for increasing transparency. *PLOS Biology*, *14*, e1002456.  
+[[doi]](https://dx.doi.org/10.1371/journal.pbio.1002456) [[pdf]](/files/openBadges.pdf) [[pre-registration]](https://osf.io/3upzh/) [[data]](https://osf.io/u6g7t/) [[materials]](https://osf.io/8kt4b/) [[analysisCode]](https://osf.io/257kv/)
+
+Hardwicke, T. E. & Shanks, D. R. (2016). Reply to Walker and Stickgold: Proposed boundary conditions on memory reconsolidation will require empirical verification. *PNAS*, *113*, e3993-e3994.  
+[[doi]](https://dx.doi.org/10.1073/pnas.1608235113) [[pdf]](/files/sequenceReconReply.pdf)
+
+Hardwicke, T. E., Mahdi, T., & Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation. *PNAS*, *113*, 5206-5211.  
+[[doi]](https://dx.doi.org/10.1073/pnas.1601440113) [[pdf]](/files/sequenceRecon.pdf) [[data]](https://osf.io/bm47u/) [[materials]](https://osf.io/xyf34/) [[analysisCode]](https://osf.io/se6gb/) [[comment]](https://doi.org/10.1073/pnas.1607964113) [[media]](http://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/)
+
+Vadillo, M. A., Hardwicke, T. E., & Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015). *Journal of Experimental Psychology: General*, *145*, 655-663.  
+[[doi]](https://dx.doi.org/10.1037/xge0000157) [[pdf]](/files/moneyPriming.pdf) [[data]](https://osf.io/4e3gy/) [[media]](http://blogs.discovermagazine.com/neuroskeptic/2016/04/23/publication-bias-in-money-priming/)
+
+Hardwicke, T. E. (2016). Persistence and plasticity in the human memory system: An empirical investigation of the overwriting hypothesis. *PhD Thesis*.  
+[[doi]](https://dx.doi.org/10.17605/OSF.IO/R4C32) [[pdf]](/files/Hardwicke_thesis.pdf) [[data]](https://osf.io/rxtgs/) [[analysisCode]](https://osf.io/rxtgs/) [[osf]](https://osf.io/rxtgs/)
+
+### Before 2016
+
+Baker, R., Dexter, M., Hardwicke, T. E., Goldstone, A., & Kourtzi, Z. (2014). Learning to predict: Exposure to temporal sequences facilitates prediction of future events. *Vision Research*, *99*, 124-133.  
+[[doi]](http://dx.doi.org/10.1016/j.visres.2013.10.017) [[pdf]](/files/learningToPredict.pdf)
+
+Ludwig, C. J. H., Farrell, S., Ellis, L. A., Hardwicke, T. E., & Gilchrist, I. D. (2012). Context-gated statistical learning and its role in visual-saccadic decisions. *Journal of Experimental Psychology: General*, *141*, 150-169.  
+[[doi]](http://dx.doi.org/10.1037/a0024916) [[pdf]](/files/contextGatedSL.pdf)
+
+Hardwicke, T. E., Jameel, L., Jones, M., Walczak, E. J., & Magis-Weinberg, L. (2014). Only human: Scientists, systems, and suspect statistics. *Opticon1826*, *25*, 1-12.  
+[[doi]](http://dx.doi.org/10.5334/opt.ch) [[pdf]](/files/onlyHuman.pdf)
+
+Hardwicke, T. E. (2012). Biological Psychology. *Psychology Learning & Teaching*, *1*, 106-122.  
+[[doi]](http://dx.doi.org/10.2304/plat.2012.11.1.106)
+
+</small>
