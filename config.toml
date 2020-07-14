@@ -16,7 +16,7 @@ disqusShortname = ""
 summaryLength = 20
 
 [params]
-	subtitle = "Marie Skłodowska-Curie Research Fellow"
+	subtitle = "Marie Skłodowska-Curie Fellow"
 	subtitle2 = "Department of Psychology"
 	subtitle3 = "University of Amsterdam"
 	disableDisqusTypes = ["page"]
