@@ -7,7 +7,7 @@ type: page
 ### Preprints
 
 Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E. J., & Frank, M. C. (submitted). Analytic reproducibility in articles receiving open data badges at Psychological Science: An observational study.   
-[[pre-print]](http://doi.org/d3mz) [[pre-registration]](https://osf.io/2cnkq/) [[data]](https://osf.io/n3dej/) [[materials]](https://osf.io/n3dej/) [[analysisCode]](https://osf.io/n3dej/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1796004.v1)
+[[pre-print]](https://doi.org/d3mz) [[pre-registration]](https://osf.io/2cnkq/) [[data]](https://osf.io/n3dej/) [[materials]](https://osf.io/n3dej/) [[analysisCode]](https://osf.io/n3dej/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1796004.v1)
 
 Hardwicke, T. E., & Goodman, S. N. (submitted). How often do leading biomedical journals use statistical experts to evaluate statistical methods? The results of a survey.  
 [[preprint]](https://doi.org/10.31222/osf.io/z27u4) [[data]](https://doi.org/10.17605/osf.io/nscv3) [[materials]](https://doi.org/10.17605/osf.io/p7g8w) [[analysisCode]](https://doi.org/10.17605/osf.io/dy6kj) [[reproducibleContainer]](https://doi.org/10.24433/CO.3883021.v1)
@@ -25,7 +25,7 @@ Ferrero, M., Hardwicke, T. E., Konstantinidis, E., & Vadillo, M. A. (2020). The 
 [[pre-print]](https://doi.org/10.31234/osf.io/ehybj) [[data]](https://osf.io/sg6jy/) [[materials]](https://osf.io/73a9y/) [[analysisCode]](https://osf.io/pxv5b/)
 
 Hardwicke, T. E., Wallach, J. D., Kidwell, M. C., Bendixen, T., Crüwell, S., & Ioannidis, J. P. A. (2020). An empirical assessment of transparency and reproducibility-related research practices in the social sciences (2014-2017). *Royal Society Open Science*, *7*, 190806.  
-[[doi]](http://dx.doi.org/10.1098/rsos.190806)
+[[doi]](https://dx.doi.org/10.1098/rsos.190806)
 [[pre-print]](https://doi.org/10.31222/osf.io/6uhg5) [[pre-registration]](https://osf.io/u5bk9/) [[materials]](https://osf.io/z9qtr/) [[data]](https://osf.io/u9fw8/) [[analysisCode]](https://osf.io/sbrez/) [[reproducibleContainer]](https://doi.org/10.24433/CO.2749769.v2)
 
 ### 2019
@@ -48,18 +48,18 @@ Hardwicke, T. E., Mathur, M. B., MacDonald, K., Nilsonne, G., Banks, G. C., Kidw
 [[doi]](https://dx.doi.org/10.1098/rsos.180448) [[pdf]](/files/Hardwicke_reproducibility_2018.pdf) [[pre-registration]](https://osf.io/q4qy3/) [[data]](https://osf.io/6s8b3/) [[materials]](https://osf.io/k2mdr/) [[analysisCode]](https://osf.io/wf3as/) [[reproducibleContainer]](https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2) [[pre-print]](https://dx.doi.org/10.17605/OSF.IO/39CFB) [[blog1]](https://tomhardwicke.netlify.com/blog/psychology-reproducibility/) [[blog2]](https://tomhardwicke.netlify.com/blog/open-data-reusability/) [[comment]](https://doi.org/10.1016/j.cognition.2018.10.008)
 
 Hardwicke, T. E. & Ioannidis, J. P. A. (2018). Populating the Data Ark: An attempt to retrieve, preserve, and liberate data from the most highly-cited psychology and psychiatry articles. *PLOS ONE*, *13*, e0201856.  
-[[doi]](https://doi.org/10.1371/journal.pone.0201856) [[pdf]](/files/Hardwicke_Ioannidis_2018_plos_one.pdf) [[data]](https://osf.io/r38qu/) [[materials]](https://osf.io/4dum6/) [[analysisCode]](https://osf.io/7syrt/) [[reproducibleContainer]](https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2) [[blog]](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/) [[media]](http://blogs.discovermagazine.com/neuroskeptic/2018/08/06/how-accessible-is-psychology-data/)
+[[doi]](https://doi.org/10.1371/journal.pone.0201856) [[pdf]](/files/Hardwicke_Ioannidis_2018_plos_one.pdf) [[data]](https://osf.io/r38qu/) [[materials]](https://osf.io/4dum6/) [[analysisCode]](https://osf.io/7syrt/) [[reproducibleContainer]](https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2) [[blog]](https://tomhardwicke.netlify.com/blog/attrition-scholarly-record/) [[media]](https://blogs.discovermagazine.com/neuroskeptic/2018/08/06/how-accessible-is-psychology-data/)
 
 Hardwicke, T. E., Henry Tessler, M., Peloquin, B., & Frank, M. C. (2018). A Bayesian decision-making framework for replication. *Behavioral and Brain Sciences*, *41*, e132.  
 [[doi]](https://doi.org/10.1017/S0140525X18000675) [[pdf]](/files/Zwann_replication_2018.pdf) [[pre-print]](https://dx.doi.org/10.17605/OSF.IO/N3YAH)
 
 Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., & Frank, M. C. (2018). A practical guide for transparency in psychological science. *Collabra: Psychology*, *4*, e20.  
-[[doi]](http://doi.org/10.1525/collabra.158) [[pdf]](/files/transparencyGuide.pdf) [[materials]](https://osf.io/xf6ug/)
+[[doi]](https://doi.org/10.1525/collabra.158) [[pdf]](/files/transparencyGuide.pdf) [[materials]](https://osf.io/xf6ug/)
 
 ### 2017
 
 Cristea, I. A., Naudet, F., Shanks, D. R., & Hardwicke, T. E. (2017). Post-retrieval Tetris should not be likened to a ‘cognitive vaccine’. *Molecular Psychiatry*, *23*, 1972–1973.  
-[[doi]](http://dx.doi.org/10.1038/mp.2017.222) [[pdf]](/files/Cristea_tetris_2017.pdf) [[data]](https://osf.io/nwz9j/) [[analysisCode]](https://osf.io/p3z58/)
+[[doi]](https://dx.doi.org/10.1038/mp.2017.222) [[pdf]](/files/Cristea_tetris_2017.pdf) [[data]](https://osf.io/nwz9j/) [[analysisCode]](https://osf.io/p3z58/)
 
 ### 2016
 
@@ -70,10 +70,10 @@ Hardwicke, T. E. & Shanks, D. R. (2016). Reply to Walker and Stickgold: Proposed
 [[doi]](https://dx.doi.org/10.1073/pnas.1608235113) [[pdf]](/files/sequenceReconReply.pdf)
 
 Hardwicke, T. E., Mahdi, T., & Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation. *PNAS*, *113*, 5206-5211.  
-[[doi]](https://dx.doi.org/10.1073/pnas.1601440113) [[pdf]](/files/sequenceRecon.pdf) [[data]](https://osf.io/bm47u/) [[materials]](https://osf.io/xyf34/) [[analysisCode]](https://osf.io/se6gb/) [[comment]](https://doi.org/10.1073/pnas.1607964113) [[media]](http://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/)
+[[doi]](https://dx.doi.org/10.1073/pnas.1601440113) [[pdf]](/files/sequenceRecon.pdf) [[data]](https://osf.io/bm47u/) [[materials]](https://osf.io/xyf34/) [[analysisCode]](https://osf.io/se6gb/) [[comment]](https://doi.org/10.1073/pnas.1607964113) [[media]](https://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/)
 
 Vadillo, M. A., Hardwicke, T. E., & Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015). *Journal of Experimental Psychology: General*, *145*, 655-663.  
-[[doi]](https://dx.doi.org/10.1037/xge0000157) [[pdf]](/files/moneyPriming.pdf) [[data]](https://osf.io/4e3gy/) [[media]](http://blogs.discovermagazine.com/neuroskeptic/2016/04/23/publication-bias-in-money-priming/)
+[[doi]](https://dx.doi.org/10.1037/xge0000157) [[pdf]](/files/moneyPriming.pdf) [[data]](https://osf.io/4e3gy/) [[media]](https://blogs.discovermagazine.com/neuroskeptic/2016/04/23/publication-bias-in-money-priming/)
 
 Hardwicke, T. E. (2016). Persistence and plasticity in the human memory system: An empirical investigation of the overwriting hypothesis. *PhD Thesis*.  
 [[doi]](https://dx.doi.org/10.17605/OSF.IO/R4C32) [[pdf]](/files/Hardwicke_thesis.pdf) [[data]](https://osf.io/rxtgs/) [[analysisCode]](https://osf.io/rxtgs/) [[osf]](https://osf.io/rxtgs/)
@@ -81,15 +81,15 @@ Hardwicke, T. E. (2016). Persistence and plasticity in the human memory system: 
 ### Before 2016
 
 Baker, R., Dexter, M., Hardwicke, T. E., Goldstone, A., & Kourtzi, Z. (2014). Learning to predict: Exposure to temporal sequences facilitates prediction of future events. *Vision Research*, *99*, 124-133.  
-[[doi]](http://dx.doi.org/10.1016/j.visres.2013.10.017) [[pdf]](/files/learningToPredict.pdf)
+[[doi]](https://dx.doi.org/10.1016/j.visres.2013.10.017) [[pdf]](/files/learningToPredict.pdf)
 
 Ludwig, C. J. H., Farrell, S., Ellis, L. A., Hardwicke, T. E., & Gilchrist, I. D. (2012). Context-gated statistical learning and its role in visual-saccadic decisions. *Journal of Experimental Psychology: General*, *141*, 150-169.  
-[[doi]](http://dx.doi.org/10.1037/a0024916) [[pdf]](/files/contextGatedSL.pdf)
+[[doi]](https://dx.doi.org/10.1037/a0024916) [[pdf]](/files/contextGatedSL.pdf)
 
 Hardwicke, T. E., Jameel, L., Jones, M., Walczak, E. J., & Magis-Weinberg, L. (2014). Only human: Scientists, systems, and suspect statistics. *Opticon1826*, *25*, 1-12.  
-[[doi]](http://dx.doi.org/10.5334/opt.ch) [[pdf]](/files/onlyHuman.pdf)
+[[doi]](https://dx.doi.org/10.5334/opt.ch) [[pdf]](/files/onlyHuman.pdf)
 
 Hardwicke, T. E. (2012). Biological Psychology. *Psychology Learning & Teaching*, *1*, 106-122.  
-[[doi]](http://dx.doi.org/10.2304/plat.2012.11.1.106)
+[[doi]](https://dx.doi.org/10.2304/plat.2012.11.1.106)
 
 </small>
