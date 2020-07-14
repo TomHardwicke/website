@@ -4,8 +4,6 @@ title: Publications
 type: page
 ---
 
-<small>
-
 ### Preprints
 
 Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E. J., & Frank, M. C. (submitted). Analytic reproducibility in articles receiving open data badges at Psychological Science: An observational study.   
