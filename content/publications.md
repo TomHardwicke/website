@@ -7,7 +7,7 @@ type: page
 ### Preprints
 
 Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E. J., & Frank, M. C. (submitted). Analytic reproducibility in articles receiving open data badges at Psychological Science: An observational study.   
-[[pre-print]](https://doi.org/d3mz) [[pre-registration]](https://osf.io/2cnkq/) [[data]](https://osf.io/n3dej/) [[materials]](https://osf.io/n3dej/) [[analysisCode]](https://osf.io/n3dej/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1796004.v1)
+[[pre-print]](https://doi.org/d3mz) [[pre-registration]](https://osf.io/2cnkq/) [[data]](https://osf.io/tfd8z/) [[materials]](https://osf.io/wy6a5/) [[analysisCode]](https://osf.io/tfd8z/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1796004.v1)
 
 Hardwicke, T. E., & Goodman, S. N. (submitted). How often do leading biomedical journals use statistical experts to evaluate statistical methods? The results of a survey.  
 [[preprint]](https://doi.org/10.31222/osf.io/z27u4) [[data]](https://doi.org/10.17605/osf.io/nscv3) [[materials]](https://doi.org/10.17605/osf.io/p7g8w) [[analysisCode]](https://doi.org/10.17605/osf.io/dy6kj) [[reproducibleContainer]](https://doi.org/10.24433/CO.3883021.v1)
