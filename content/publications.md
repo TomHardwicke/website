@@ -12,10 +12,10 @@ Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloqu
 Hardwicke, T. E., & Goodman, S. N. (submitted). How often do leading biomedical journals use statistical experts to evaluate statistical methods? The results of a survey.  
 [[preprint]](https://doi.org/10.31222/osf.io/z27u4) [[data]](https://doi.org/10.17605/osf.io/nscv3) [[materials]](https://doi.org/10.17605/osf.io/p7g8w) [[analysisCode]](https://doi.org/10.17605/osf.io/dy6kj) [[reproducibleContainer]](https://doi.org/10.24433/CO.3883021.v1)
 
-Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (submitted). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017).  
-[[pre-print]](https://doi.org/10.31222/osf.io/9sz2y) [[pre-registration]](https://osf.io/q96eh/) [[data]](https://osf.io/5qmz7/) [[materials]](https://osf.io/c89sy/) [[analysisCode]](https://osf.io/gfjtq/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1618143.v1)
-
 ### 2020
+
+Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (accepted). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017). *Perspectives on Psychological Science*  
+[[pre-print]](https://doi.org/10.31222/osf.io/9sz2y) [[pre-registration]](https://osf.io/q96eh/) [[data]](https://osf.io/5qmz7/) [[materials]](https://osf.io/c89sy/) [[analysisCode]](https://osf.io/gfjtq/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1618143.v1)
 
 Hardwicke, T. E., Serghiou, S., Janiaud, P., Danchev, V., Crüwell, S., Goodman, S. N., & Ioannidis, J. P. A. (2020). Calibrating the scientific ecosystem through meta-research. *Annual Review of Statistics and its Application*, *7*, 11-37.  
 [[doi]](https://doi.org/10.1146/annurev-statistics-031219-041104) [[pre-print]](https://doi.org/10.31222/osf.io/krb58)
