@@ -1,0 +1,111 @@
+---
+title: 'The attrition of the modern scholarly record'
+authors: ['Tom Hardwicke']
+date: '2018-08-06'
+slug: attrition-scholarly-record
+summary: 'An extensive and ongoing attrition of the modern scholarly record is impeding a number of important research activities that support verification, discovery, and evidence synthesis. Recently, we launched the Data Ark initiative -- an attempt to retrieve, preserve, and liberate important scientific data. However, most of our data requests were not successful. How can we ensure the longevity and accessibility of important research artifacts?'
+tags: ''
+categories: ''
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+### Brief summary
+<small>*An extensive and ongoing attrition of the modern scholarly record is impeding a number of important research activities that support verification, discovery, and evidence synthesis. Recently, we launched the Data Ark initiative -- an attempt to retrieve, preserve, and liberate important scientific data. However, most of our data requests were not successful. How can we ensure the longevity and accessibility of important research artifacts?*</small>
+
+***  
+
+The Great Library of Alexandria was founded with the lofty ambition to gather and preserve all the world's knowledge under one roof. The Ptolemies of Egypt dispatched their agents to the marketplaces of Athens, Syracuse, and Rhodes in search of valuable papyri. Ships sailing into the bustling port of Alexandria were searched and any books found on board were confiscated[^confiscated]. Eventually, a large collection of influential original works was amassed, covering all manner of subjects from poetry to mathematics, penned by such luminaries as Aristotle and Euripides. And then, torched by fire, jolted by earthquake, and ravaged by warfare, the Great Library crumbled into ruin, and a valuable portion of the scholarly record was lost forever[^destruction].
+
+[^confiscated]: rather cheekily, it appears that owners were often reimbursed with copies, whilst the original literary texts were purloined for the Great Library's collection.
+
+[^destruction]: there is considerable uncertainty about the nature and timeline of events that led to the library's demise. [Delia (1992)](http://dx.doi.org/10.2307/2165947) discusses various accounts.
+
+```{r great-library-fig, fig.cap = "The demise of the Great Library of Alexandria."}
+knitr::include_graphics('/img/greatLibrary.jpg')
+```
+
+The demise of the Great Library of Alexandria is a cautionary tale: most would lament such a catastrophic loss and wish that it never be repeated. And yet in the modern era, I will contend, an extensive and ongoing attrition of the scholarly record is being widely tolerated. Firstly, let me expand upon what I mean by "the scholarly record". It is instinctive to view the scholarly record as the collection of written articles through which we communicate our research - the books and research reports lined up on the shelves of libraries and residing in digital archives. But this view is quite superficial -- it is as if you are looking down on a rainforest from a helicopter and not appreciating what lies beneath the canopy. A deeper perspective frames the modern scholarly record as a rich ecosystem of research artifacts: articles, study materials, protocols, analysis code, and data (Figure \@ref(fig:scholarly-record)). From this point of view, an article is only a high-level summary: a verbal scaffold that collates, organizes, and describes a mosaic of other research artifacts.
+
+```{r scholarly-record, fig.width = 2, fig.cap = "The modern scholarly record as a rich ecosystem of research artifacts: articles, study materials, protocols, analysis code, and data."}
+knitr::include_graphics('/img/scholarly-record.png')
+```
+
+Viewing the scholarly record as a mere collection of articles makes it easy to overlook that other research artifacts have important roles to play in the scientific endeavour. Figure \@ref(fig:open-sci-activities) depicts a number of research activities that are either facilitated by or entirely depend upon having access to one or more research artifacts[^klein]. When research artifacts are unavailable, it undermines the efficiency and credibility of the scientific endeavour by disrupting or preventing these important research activities[^undermines]. A striking example is the [recent dire news](https://dx.doi.org/10.1126/science.aau9619) that the Reproducibility Project: Cancer Biology has found it necessary to terminate 32 of its 50 target replication attempts due to a lack of methodological information and access to materials from the original studies. 
+
+[^klein]: for more details see the "Why share" section of [Klein et al. (2018)](https://doi.org/10.1525/collabra.158)
+[^undermines]: see for example [Chan et al. (2014)](https://dx.doi.org/10.1016/
+S0140-6736(13)62296-5) and [Ioannidis (2012)](https://dx.doi.org/10.1177/1745691612464056)
+
+```{r open-sci-activities, fig.width = 2, fig.cap = "An open scholarly record, richly populated with research artifacts, enables a number of important research activties that faciliate verification, discovery, and evidence-synthesis."}
+knitr::include_graphics('/img/open-sci-activities.png')
+```
+
+Raw data is arguably the most foundational artifact in the scholarly record -- it is the empirical evidence that substantiates scientific claims. Data enables independent verification through re-analysis, whether that be repeating the original analysis to establish [analytic reproducibility](https://dx.doi.org/10.31222/osf.io/39cfb), or running variations of the original analysis to assess [analytic robustness](https://dx.doi.org/10.1177/1745691616658637). Data can also be [re-analysed in novel ways](http://dx.plos.org/10.1371/journal.pcbi.1005037), perhaps by other scientists who differ in expertise or theoretical approach, or perhaps by future scientists who have access to some equipment or technique that does not currently exist. Finally, raw data can enable [more sophisticated forms of evidence synthesis](https://doi.org/10.1136/bmj.c221) beyond what can be achieved by meta-analysis of aggregated data. 
+
+The extant scientific literature consists of an enormous body of articles reporting findings and making claims, but it is rare to see the research data that substantiates them[^noDataPublished]. After articles have been published, the data files typically exist on temporary life support -- only a fragile network of vines beneath the canopy tentatively binds research artifacts to published articles. Over time this ad-hoc system starts to atrophy: hard drives fail, e-mail addresses stop functioning, colleagues move on, and before long, the [data is practically no longer retrievable](https://dx.doi.org/10.1016/j.cub.2013.11.014). Requesting data directly from authors is typically not successful[^noDataShared]. Other research artifacts suffer a similar fate. For example, in my work I have documented a lack of access to [study protocols](https://dx.doi.org/10.31222/osf.io/fzpcy), [analysis scripts](https://dx.doi.org/10.17605/OSF.IO/39CFB), and [study materials](https://doi.org/10.1371/journal.pbio.1002456). There was no fire, or earthquake, or war to draw our attention to this state of affairs, but it could be that most of the data generated by humanity’s previous scientific ventures have now been irrecoverably lost.
+
+[^noDataPublished]: see for example [Alsheikh-Ali et al. (2011)](https://dx.doi.org/10.1371/journal.pone.0024357) and [Iqbal et al. (2016)](https://dx.doi.org/10.1371/journal.pbio.1002333)
+[^noDataShared]: see for example [Vanpaemel et al. (2015)](http://doi.org/10.1525/collabra.13) and [Wicherts et al. (2006)](https://doi.org/10.1037/0003-066X.61.7.726)
+
+What can be done? Many efforts are underway to increase the preservation and accessibility of research artifacts for future studies. For example, we [recently found](https://dx.doi.org/10.31222/osf.io/39cfb), that a mandatory open data policy introduced at the journal *Cognition* was highly effective at increasing access to data[^nuijten]. But these efforts will not address the fact that data remains unavailable for the majority of the extant published literature. This was the motivation for [our recent effort to create the Data Ark](https://doi.org/10.1371/journal.pone.0201856): an open online repository where data retrieved from influential scientific studies could be preserved and liberated for verification and re-use by the research community. Essentially, this was an attempt to reinforce a critical part of the scholarly record and ensure its accessibility and longevity. 
+
+[^nuijten]: Also see [Nuijten et al. (2017)](https://dx.doi.org/10.1525/collabra.102)
+
+We began by contacting the authors of 111 of the most highly-cited articles published in psychology and psychiatry between 2006 and 2016, and asked if they would be willing to share the corresponding raw data publicly in the Data Ark. We also provided the option of suggesting that certain access restrictions be put in place, for example in the case of sensitive data. If authors were unwilling to share, we asked for the reason(s) why so we could better understand barriers to data sharing.
+
+```{r}
+library(tidyverse)
+library(papaja)
+d <- read_csv('../../static/data/dataArk/d_tidy.csv')
+
+# get response type levels in order of availability
+order <- d %>% 
+  mutate(responseType = factor(responseType, levels = rev(c("Extant sharing system (unrestricted)", "Data Ark (unrestricted)", "Extant sharing system (restricted)", "Data Ark (restricted)", "Sharing with METRICS only", "Will not share data", "Non-response")), ordered = T)) %>%
+  select(responseType)
+
+# plot colours
+red <- "#FB8072"
+orange <- "#FDB462"
+green <- "#8DD3C7"
+palette <- c(green, orange, red)
+
+forPlot <- d %>% count(fieldCode, timePeriod, responseType) %>%
+  mutate(responseType = factor(responseType, levels = levels(order$responseType), ordered = T),
+         fieldCode = fct_recode(fieldCode, "Psychiatry" = "PSYCHIATRY", "Psychology" = "PSYCHOLOGY"),
+         dataAvailability = case_when(
+          responseType %in% c("Non-response",
+                              "Will not share data") ~ 'unavailable',
+          responseType %in% c("Data Ark (restricted)", 
+                              "Sharing with METRICS only", 
+                              "Extant sharing system (restricted)") ~ 'partly available',
+          responseType %in% c("Data Ark (unrestricted)", 
+                              "Extant sharing system (unrestricted)") ~ 'available'),
+         dataAvailability = factor(dataAvailability))
+
+mainPlot <- ggplot(data = forPlot, aes(x = responseType, y = n, fill = dataAvailability)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(name = 'data availability', values = palette) +
+  scale_y_continuous(breaks = seq(0,50,10), limits = c(0,50), sec.axis = sec_axis(~ . / nrow(d)*100, name = "percentage (N = 111)")) +
+  theme_apa() +
+  xlab('') +
+  ylab('count') +
+  coord_flip() +
+  theme(plot.title = element_text(size = 12, face="bold"))
+```
+
+```{r data-ark-fig, fig.cap = "Responses to our data sharing request in an effort to populate the Data Ark. You can see a breakdown of responses based on field (psychology vs. psychiatry) and time period (2006-2011 vs. 2014-2016) in the [paper](https://doi.org/10.1371/journal.pone.0201856)."}
+mainPlot
+```
+
+The main findings are shown in Figure \@ref(fig:data-ark-fig). As you can see, we were only able to retrieve 10 out of the 111 target data sets for unrestricted sharing in the Data Ark (you can [find them here](https://osf.io/view/DataArk/)). Note that in 22 cases data were already being shared via some existing system, but only 5 of these allowed unrestricted access. Of course data sharing is not always straightforward and can be constrained by legal or ethical obligations. We discuss additional findings related to these issues in our [paper](https://doi.org/10.1371/journal.pone.0201856), such as the access restrictions for existing sharing schemes and the reasons provided by authors who responded that they would not share. However, in the many cases where we received no response, it was impossible to learn about these potential barriers, and for the scientific community to judge if there are appropriate reasons not to share. These data are essentially lost.
+
+Our initial efforts to populate the Data Ark have highlighted just how challenging it can be to retrieve and preserve data from published studies. We had hoped that targeting particularly influential studies would yield a higher success rate than previous retrieval efforts. It should be a priority that these data are preserved and liberated to enable independent verification and re-use by the scientific community. It may be that data requests are more likely to be successful in the context of a specific research project and when tangible benefits (e.g., authorship on a paper) for original authors are more obvious. For example, data retrieval seems to have been highly successful in [a recent effort to establish an empirical common ground](https://orca.cf.ac.uk/109813/1/Morey.%20Benchmarks%20for%20model.pdf) for the purposes of computational modeling in the domain of short-term and working memory.
+
+Unfortunately, we do not know what substantive scientific projects of the future would bear fruit if only they could be pollinated by the scientific data of today. That is why it is essential to ensure the preservation of important data while we still have the chance to retrieve them. Our findings clearly raise questions about the current norms of data stewardship. As a community we do not deem it appropriate for researchers to grant ethical approval for their own studies - is it not similarly inappropriate for  researchers who originally generated data to retain responsibility for their preservation and govern their access? Would journals, data repositories, and/or ethics boards be more reliable and impartial custodians of data? 
+
+The modern scholarly record is not under threat from fire, earthquake, or war, but action is needed to avert the consequences of neglectful stewardship. How many published claims cannot be directly verified because the underlying data that substantiates them are not available? How many new discoveries have we missed because data cannot be re-used in novel analyses? How many replication attempts have been thwarted by a lack of access to original study materials? How many resources have been wasted re-building stimuli and re-writing code that our colleagues have already laboured on? How many misleading findings could have been avoided if pre-registered protocols enabled the research community to identify and challenge 'behind the scenes' research decisions? The ongoing attrition of research artifacts has led to a greatly impoverished scholarly record -- a desolate landscape of withered vines where flowers could be blooming. An ancient scholar lamenting the demise of the Great Library would look at their modern descendants, blessed as they are with their God-like technological powers, and wonder how they could possibly tolerate such a situation.
+
+
