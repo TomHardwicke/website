@@ -24,7 +24,7 @@ The Great Library of Alexandria was founded with the lofty ambition to gather an
 [^destruction]: there is considerable uncertainty about the nature and timeline of events that led to the library's demise. [Delia (1992)](http://dx.doi.org/10.2307/2165947) discusses various accounts.
 
 ```{r great-library-fig, fig.cap = "The demise of the Great Library of Alexandria."}
-knitr::include_graphics('/img/greatLibrary.jpg')
+knitr::include_graphics('../img/greatLibrary.jpg')
 ```
 
 The demise of the Great Library of Alexandria is a cautionary tale: most would lament such a catastrophic loss and wish that it never be repeated. And yet in the modern era, I will contend, an extensive and ongoing attrition of the scholarly record is being widely tolerated. Firstly, let me expand upon what I mean by "the scholarly record". It is instinctive to view the scholarly record as the collection of written articles through which we communicate our research - the books and research reports lined up on the shelves of libraries and residing in digital archives. But this view is quite superficial -- it is as if you are looking down on a rainforest from a helicopter and not appreciating what lies beneath the canopy. A deeper perspective frames the modern scholarly record as a rich ecosystem of research artifacts: articles, study materials, protocols, analysis code, and data (Figure \@ref(fig:scholarly-record)). From this point of view, an article is only a high-level summary: a verbal scaffold that collates, organizes, and describes a mosaic of other research artifacts.
