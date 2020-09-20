@@ -57,7 +57,7 @@ What can be done? Many efforts are underway to increase the preservation and acc
 
 We began by contacting the authors of 111 of the most highly-cited articles published in psychology and psychiatry between 2006 and 2016, and asked if they would be willing to share the corresponding raw data publicly in the Data Ark. We also provided the option of suggesting that certain access restrictions be put in place, for example in the case of sensitive data. If authors were unwilling to share, we asked for the reason(s) why so we could better understand barriers to data sharing.
 
-```{r}
+```{r warning=F, message=F}
 library(tidyverse)
 library(papaja)
 d <- read_csv('../../static/data/dataArk/d_tidy.csv')
