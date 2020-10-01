@@ -14,13 +14,13 @@ Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloqu
 Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (accepted). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017). *Perspectives on Psychological Science*.  
 [[preprint]](https://doi.org/10.31222/osf.io/9sz2y) [[preregistration]](https://osf.io/q96eh/) [[data]](https://osf.io/5qmz7/) [[materials]](https://osf.io/c89sy/) [[analysisCode]](https://osf.io/gfjtq/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1618143.v1)
 
-Hardwicke, T. E., & Goodman, S. N. (accepted). How often do leading biomedical journals use statistical experts to evaluate statistical methods? The results of a survey. *PLOS ONE*.  
-[[preprint]](https://doi.org/10.31222/osf.io/z27u4) [[data]](https://doi.org/10.17605/osf.io/nscv3) [[materials]](https://doi.org/10.17605/osf.io/p7g8w) [[analysisCode]](https://doi.org/10.17605/osf.io/dy6kj) [[reproducibleContainer]](https://doi.org/10.24433/CO.3883021.v1)
+Hardwicke, T. E., & Goodman, S. N. (2020). How often do leading biomedical journals use statistical experts to evaluate statistical methods? The results of a survey. *PLOS ONE*, *15(10)*, e0239598.    
+[[doi]](https://doi.org/fbz5) [[preprint]](https://doi.org/10.31222/osf.io/z27u4) [[data]](https://doi.org/10.17605/osf.io/nscv3) [[materials]](https://doi.org/10.17605/osf.io/p7g8w) [[analysisCode]](https://doi.org/10.17605/osf.io/dy6kj) [[reproducibleContainer]](https://doi.org/10.24433/CO.3883021.v1)
 
 Hardwicke, T. E., Serghiou, S., Janiaud, P., Danchev, V., Crüwell, S., Goodman, S. N., & Ioannidis, J. P. A. (2020). Calibrating the scientific ecosystem through meta-research. *Annual Review of Statistics and its Application*, *7*, 11-37.  
 [[doi]](https://doi.org/10.1146/annurev-statistics-031219-041104) [[preprint]](https://doi.org/10.31222/osf.io/krb58)
 
-Ferrero, M., Hardwicke, T. E., Konstantinidis, E., & Vadillo, M. A. (2020). The effectiveness of refutation texts to correct misconceptions among educators. *Journal of Experimental Psychology: Applied.*  
+Ferrero, M., Hardwicke, T. E., Konstantinidis, E., & Vadillo, M. A. (2020). The effectiveness of refutation texts to correct misconceptions among educators. *Journal of Experimental Psychology: Applied*, 26(3), 411–421.   
 [[doi]](https://psycnet.apa.org/doi/10.1037/xap0000258)
 [[preprint]](https://doi.org/10.31234/osf.io/ehybj) [[data]](https://osf.io/sg6jy/) [[materials]](https://osf.io/73a9y/) [[analysisCode]](https://osf.io/pxv5b/)
 
