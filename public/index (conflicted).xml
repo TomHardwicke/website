@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tom E. Hardwicke</title>
+    <link>/</link>
+    <description>Recent content on Tom E. Hardwicke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>The best way to reach me is via e-mail: tom.hardwicke [@] uva.nl</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/</link>
+      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
+      
+      <guid>/publications/</guid>
+      <description>Preprints Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E.</description>
+    </item>
+    
+    <item>
+      <title>Where do the numbers published in scientific articles come from?</title>
+      <link>/blog/psychology-reproducibility/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/psychology-reproducibility/</guid>
+      <description>Where do the numbers published in scientific articles come from and how often are they correct? Recently we discovered that it can be a lot more difficult to answer this question than one might hope. Our attempt to reproduce values reported in 35 articles published in the journal Cognition revealed analysis pipelines peppered with errors. I outline some elements of a reproducible workflow that may help to mitigate these problems in future research.</description>
+    </item>
+    
+    <item>
+      <title>Are open data actually reusable?</title>
+      <link>/blog/open-data-reusability/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/open-data-reusability/</guid>
+      <description>Many efforts are underway to promote data sharing in psychology, however it is currently unclear if the in-principle benefits of data availability are being realized in practice. In a recent study, we found that a mandatory open data policy introduced at the journal Cognition led to a substantial increase in available data, but a considerable portion of this data was not reusable. For data to be reusable, it needs to be clearly structured and well-documented. Open data alone will not be enough to achieve the benefits envisioned by proponents of data sharing.</description>
+    </item>
+    
+    <item>
+      <title>The attrition of the modern scholarly record</title>
+      <link>/blog/attrition-scholarly-record/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/attrition-scholarly-record/</guid>
+      <description>An extensive and ongoing attrition of the modern scholarly record is impeding a number of important research activities that support verification, discovery, and evidence synthesis. Recently, we launched the Data Ark initiative &amp;ndash; an attempt to retrieve, preserve, and liberate important scientific data. However, most of our data requests were not successful. How can we ensure the longevity and accessibility of important research artifacts?</description>
+    </item>
+    
+  </channel>
+</rss>
