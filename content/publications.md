@@ -69,7 +69,7 @@ Kidwell, M. C., Lazarević, L. B., Baranski, E., Hardwicke, T. E., Piechowski, S
 Hardwicke, T. E. & Shanks, D. R. (2016). Reply to Walker and Stickgold: Proposed boundary conditions on memory reconsolidation will require empirical verification. *PNAS*   
 [[doi]](https://dx.doi.org/10.1073/pnas.1608235113) [[pdf]](/files/sequenceReconReply.pdf)
 
-Hardwicke, T. E., Mahdi, T., & Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation. *PNAS* 
+Hardwicke, T. E., Mahdi, T., & Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation. *PNAS*  
 [[doi]](https://dx.doi.org/10.1073/pnas.1601440113) [[pdf]](/files/sequenceRecon.pdf) [[data]](https://osf.io/bm47u/) [[materials]](https://osf.io/xyf34/) [[analysisCode]](https://osf.io/se6gb/) [[comment]](https://doi.org/10.1073/pnas.1607964113) [[media]](https://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/)
 
 Vadillo, M. A., Hardwicke, T. E., & Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015). *Journal of Experimental Psychology: General*    
