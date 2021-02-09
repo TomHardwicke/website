@@ -3,10 +3,14 @@ date: "2019-04-19T21:37:58+05:30"
 title: Publications
 type: page
 ---
+### Preprints
+
+Hardwicke, T. E., Szucs D., Thibault, R. T., Crüwell, S., van den Akker, O. R., Nuijten, M. B., & Ioannidis, J. P. A. (preprint). Post-replication citation patterns in psychology: Four case studies. *MetaArXiv*.  
+[[preprint]](https://doi.org/ftx5) [[preregistration]](https://osf.io/eh5qd/) [[data]](https://osf.io/w8h2q/) [[materials]](https://osf.io/w8h2q/) [[analysisCode]](https://osf.io/w8h2q/) [[reproducibleContainer]](https://doi.org/10.24433/CO.4225975.v1)
 
 ### 2021
 
-Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (accepted). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017). *Perspectives on Psychological Science*.  
+Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (in press). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017). *Perspectives on Psychological Science*.  
 [[preprint]](https://doi.org/10.31222/osf.io/9sz2y) [[preregistration]](https://osf.io/q96eh/) [[data]](https://osf.io/5qmz7/) [[materials]](https://osf.io/c89sy/) [[analysisCode]](https://osf.io/gfjtq/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1618143.v1)
 
 Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E. J., & Frank, M. C. (2021). Analytic reproducibility in articles receiving open data badges at the journal Psychological Science: An observational study. *Royal Society Open Science*  
