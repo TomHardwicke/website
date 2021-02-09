@@ -7,7 +7,7 @@ type: page
 ### Preprints
 
 Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A., Corker, K. S., Dreber, A., Fidler, F., Hilgrad, J., Kline, M., Nuijten, M. B., Rohrer, J., Romero, F., Scheel, A., Scherer, L., & Vazire, S. (preprint). Replicability, robustness, and reproducibility in psychological science. *PsyArXiv*.  
-[[preprint]]https://doi.org/ftzw [[preregistration]](https://osf.io/7np92/) [[data]](https://osf.io/7np92/) [[materials]](https://osf.io/7np92/) [[analysisCode]](https://osf.io/7np92/)
+[[preprint]](https://doi.org/ftzw) [[preregistration]](https://osf.io/7np92/) [[data]](https://osf.io/7np92/) [[materials]](https://osf.io/7np92/) [[analysisCode]](https://osf.io/7np92/)
 
 Hardwicke, T. E., Szucs D., Thibault, R. T., Crüwell, S., van den Akker, O. R., Nuijten, M. B., & Ioannidis, J. P. A. (preprint). Post-replication citation patterns in psychology: Four case studies. *MetaArXiv*.  
 [[preprint]](https://doi.org/ftx5) [[preregistration]](https://osf.io/eh5qd/) [[data]](https://osf.io/w8h2q/) [[materials]](https://osf.io/w8h2q/) [[analysisCode]](https://osf.io/w8h2q/) [[reproducibleContainer]](https://doi.org/10.24433/CO.4225975.v1)
