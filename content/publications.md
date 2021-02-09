@@ -3,6 +3,7 @@ date: "2019-04-19T21:37:58+05:30"
 title: Publications
 type: page
 ---
+
 ### Preprints
 
 Hardwicke, T. E., Szucs D., Thibault, R. T., Crüwell, S., van den Akker, O. R., Nuijten, M. B., & Ioannidis, J. P. A. (preprint). Post-replication citation patterns in psychology: Four case studies. *MetaArXiv*.  
