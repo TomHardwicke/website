@@ -7,3 +7,4 @@ public/ # if using Netlify
 public/.DS_Store
 public/.DS_Store
 *.DS_Store
+.DS_Store
