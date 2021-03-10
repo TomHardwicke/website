@@ -14,8 +14,8 @@ Hardwicke, T. E., Szucs D., Thibault, R. T., Crüwell, S., van den Akker, O. R.,
 
 ### 2021
 
-Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (in press). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017). *Perspectives on Psychological Science*.  
-[[preprint]](https://doi.org/10.31222/osf.io/9sz2y) [[preregistration]](https://osf.io/q96eh/) [[data]](https://osf.io/5qmz7/) [[materials]](https://osf.io/c89sy/) [[analysisCode]](https://osf.io/gfjtq/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1618143.v1)
+Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach, J. D., Kidwell, M. C., & Ioannidis, J. P. A. (2021). Estimating the prevalence of transparency and reproducibility-related research practices in psychology (2014-2017). *Perspectives on Psychological Science*.  
+[[doi]](https://doi.org/10.1177%2F1745691620979806) [[preprint]](https://doi.org/10.31222/osf.io/9sz2y) [[preregistration]](https://osf.io/q96eh/) [[data]](https://osf.io/5qmz7/) [[materials]](https://osf.io/c89sy/) [[analysisCode]](https://osf.io/gfjtq/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1618143.v1)
 
 Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E. J., & Frank, M. C. (2021). Analytic reproducibility in articles receiving open data badges at the journal Psychological Science: An observational study. *Royal Society Open Science*  
 [[doi]](https://doi.org/fp2m) [[preprint]](https://doi.org/d3mz) [[preregistration]](https://osf.io/2cnkq/) [[data]](https://osf.io/tfd8z/) [[materials]](https://osf.io/wy6a5/) [[analysisCode]](https://osf.io/tfd8z/) [[reproducibleContainer]](https://doi.org/10.24433/CO.1796004.v3)
